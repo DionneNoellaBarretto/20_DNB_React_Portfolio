@@ -35,7 +35,9 @@ GIVEN a single-page application portfolio for a web developer
 
 The following animation shows the web application's appearance and functionality:
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./src/assets/20-react-homework-demo-01.gif)
+
+[WireFrame - Layout](https://drive.google.com/file/d/1NIMF139VHox3gRsoGtBnzCC6UeaWHBsV/view?usp=sharing)
 
 ## Technologies Used
 HTML, CSS (Bootstrap), JavaScript, React (frontend framework), External Libraries: Framer Motion (animation), React Router (routing), GithubPages
