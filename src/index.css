@@ -1,10 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
 
+/* https://uigradients.com/#NeonLife OR https://dionnenoellabarretto.github.io/RandomHexCodeColorGradientSelector/ */
+body{
+    background-image: linear-gradient( to right bottom, #00F260,#0575E6);
+    /* to prevent the body runover */
+    background-attachment: fixed;
 
+}
 .sidebar{
-    background-color: aqua;
+    background-color: rgb(228, 226, 226);
+    height: 100%;
+    border-radius: 20px;
+    padding: 25px 15px;
 }
 
 .mainComponent {
-    background-color:blueviolet ;
+    background-color:rgb(228, 226, 226); 
+    border-radius: 20px;
+    padding: 25px 15px;
 }
+
+.row{
+/* for full height for the sidebar/mainComponent sections */
+height: 90vh;
+}
+
+.container{
+    padding: 50px;
+}
+
