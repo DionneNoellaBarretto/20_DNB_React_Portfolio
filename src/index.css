@@ -12,12 +12,16 @@ body{
     height: 100%;
     border-radius: 20px;
     padding: 25px 15px;
+    box-shadow: 0 0 15px black;
+    text-align: center;
+
 }
 
 .mainComponent {
     background-color:rgb(228, 226, 226); 
     border-radius: 20px;
     padding: 25px 15px;
+    box-shadow: 0 0 15px black;
 }
 
 .row{
@@ -29,3 +33,16 @@ height: 90vh;
     padding: 50px;
 }
 
+/* styling sidebar elements */
+
+.sidebar_Img{
+   height: 110px;
+   width: 120px;
+   object-fit: contain;
+   border: 30px; 
+}
+
+.sidebar_icon {
+    width: 25px;
+    height: 25px;
+}
