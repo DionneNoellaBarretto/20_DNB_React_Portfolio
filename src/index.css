@@ -1,1 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
+
+
+.sidebar{
+    background-color: aqua;
+}
+
+.mainComponent {
+    background-color:blueviolet ;
+}
