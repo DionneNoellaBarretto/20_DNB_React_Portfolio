@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "./components/Sidebar";
-import MainComponent from "./components/MainComponent";
-
+// import MainComponent from "./components/MainComponent";
+import NavBar from "./components/NavBar";
 function App() {
   return (
     <div className="App">
@@ -17,7 +17,9 @@ function App() {
           
           <div className="col-lg-9 mainComponent">
            
-            <MainComponent />
+            {/* <MainComponent /> */}
+            {/* NavBar Menu embedded and auto imported using the Auto Import extension */}
+            <NavBar />
           </div>
         </div>
       </div>

@@ -8,6 +8,8 @@ body{
     background-attachment: fixed;
 
 }
+
+/* Sidebar Component Section */
 .sidebar{
     background-color: rgb(202, 200, 200);
     height: 100%;
@@ -118,4 +120,31 @@ a:visited{
         margin: 30px 0;
     
     }
+}
+/* Main Component Section Styling */
+/*  Nav Bar Section */
+
+.navbar-menu{
+display: flex;
+}
+.navbar_active{
+font-size: 2rem;
+font-weight: 700;
+color: #0967c5;
+border-bottom: 4px solid #3794f1;
+}
+.navbar-item{
+margin-right: 20px;
+text-decoration: none;
+color: #0967c5;
+font-size: 0.9rem;
+font-weight: bold;
+}
+
+.navbar-item:hover{
+    background-clip: text;
+    background: -webkit-linear-gradient(#21f074,#127eeb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
 }
