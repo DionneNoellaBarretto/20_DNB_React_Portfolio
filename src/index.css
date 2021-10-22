@@ -14,7 +14,7 @@ body{
     background-color: rgb(202, 200, 200);
     height: 100%;
     border-radius: 20px;
-    padding: 25px 15px;
+    padding: 15px 8px;
     box-shadow: 0 0 15px black;
     text-align: center;
 
@@ -23,8 +23,8 @@ body{
 .mainComponent {
     background-color: rgb(202, 200, 200);
     border-radius: 20px;
-    padding: 25px 15px;
-    box-shadow: 0 0 15px black;
+    padding: 10px 8px;
+    box-shadow: 0 0 15px rgb(15, 15, 15);
 }
 
 .row{
