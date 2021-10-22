@@ -3,7 +3,7 @@
 
 /* https://uigradients.com/#NeonLife OR https://dionnenoellabarretto.github.io/RandomHexCodeColorGradientSelector/ */
 body{
-    background-image: linear-gradient( to right bottom, #00F260,#0575E6);
+    background-image: linear-gradient( to right bottom, #69f09f,#3794f1);
     /* to prevent the body runover */
     background-attachment: fixed;
 
@@ -43,10 +43,21 @@ height: 90vh;
    object-fit: contain;
    border: 30px; 
 }
+.sidebar_Img:hover{
+    transform: scale(1.1);
+    border: 30px; 
+ }
 
 .sidebar_icon {
     width: 25px;
     height: 25px;
+    margin:3px;
+    padding: 5px;
+}
+.sidebar_icon:hover {
+    cursor: pointer;
+    transform: scale(2.0);
+    border:rgb(34, 34, 34) 0.2px dashed;
 }
 
 
@@ -57,16 +68,34 @@ height: 90vh;
    border: 30px;
 }
 
-.sidebar_name{
+.sidebar_name, .presentations{
     font-family: 'Kaushan Script', cursive;
     margin: 20px 0;
 }
 
 .sidebar_name>span {
-color: #0575E6;
+color: #3794f1;
 }
 
 .sidebar_item {
     margin-bottom: 6px;
     padding-top: 6px;
+}
+
+.sidebar_title{
+background-color: rgb(161, 159, 159);
+border-radius: 15px;
+}
+
+a{
+    text-decoration:none ;
+    color: #3794f1;
+}
+
+a:hover{
+    color: rgb(26, 13, 216);
+    
+}
+a:visited{
+    color: rgb(6, 77, 29);
 }

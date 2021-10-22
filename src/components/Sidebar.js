@@ -18,23 +18,27 @@ export default function Sidebar() {
       {/* <img src={dnb} alt="DNB Profile Pic" className="" /> */}
       {/* replacing my profile image with a dev card that has my profile picture */}
       <a href="https://app.daily.dev/dnb">
-            <img
-              className="sidebar_Img"
-              title="Click to view my DailyDev Profile"
-              src="https://api.daily.dev/devcards/2b2ffde3884c4d9d8b089e028c6d6e2b.png?r=si5"
-              alt="Dionne Noella Barretto's Dev Card"
-            />
-          </a>
-      <div className="sidebar_name">
-        Dionne Noella <span> Barretto</span>
+        <img
+          className="sidebar_Img"
+          title="Click to view my DailyDev Profile"
+          src="https://api.daily.dev/devcards/2b2ffde3884c4d9d8b089e028c6d6e2b.png?r=si5"
+          alt="Dionne Noella Barretto's Dev Card"
+        />
+      </a>
+      <div>
+        <br />
+        <strong className="sidebar_name">
+          Dionne Noella <span> Barretto</span>
+        </strong>
       </div>
       <div className="sidebar_title">
-        {" "}
-        Senior Solutions Consultant
-        <img src={Google} alt="Google Gif" className="sidebar_company" />
+        <strong> Senior Solutions Consultant </strong>
+        <a href="https://g.co/kgs/t8KRK8">
+          <img src={Google} alt="Google Gif" className="sidebar_company" />
+        </a>
       </div>
       <hr />
-      <div classname="contact">
+      <div className="contact">
         <div className="sidebar_items">
           <a
             href="https://www.linkedin.com/in/dionnenoellabarretto/"
@@ -91,7 +95,7 @@ export default function Sidebar() {
           >
             <img
               src={Google_Voice_icon}
-              title="Click # to call me"
+              title="Click the phone icon to call me"
               alt="phone#"
               className="sidebar_icon"
             />
@@ -100,8 +104,13 @@ export default function Sidebar() {
         <hr />
         <a href="http://">
           <div className="sidebar_resume">
-            <img src={resume} alt="Resume" className="sidebar_icon" /> Download
-            Resume
+            <img
+              src={resume}
+              alt="Resume"
+              className="sidebar_icon"
+              title="Click to view my Resume"
+            />
+            View my Resume
           </div>
         </a>
         <hr />
@@ -239,8 +248,34 @@ export default function Sidebar() {
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/512px-Repl.it_logo.svg.png"
             />
           </a>
-          
         </figure>
+      </div>
+      <hr />
+      <div >
+        <strong className="presentations">VMWorld 2019 Speaker Sessions</strong> <br />
+        <a
+          className="sidebar_ppt"
+          href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Flive-from-vmworld-with-linus-bourque-principal-instructor-and-dionne-noella-barr%2F358103825126606%2F&width=200&show_text=false&height=125&appId"
+          title="Click to be redirected to a facebook video"
+          rel="noopener"
+          role="tab"
+          aria-controls="pills-home"
+          aria-selected="true"
+        >
+          HzC Troubleshooting Super Heroes
+        </a>
+        <br />
+        <a
+          className="sidebar_ppt"
+          href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Fbecoming-troubleshooting-superheroes-for-horizon-cloud%2F720625145042964%2F&width=200&show_text=false&height=125&appId"
+          title="Click to be redirected to a facebook video"
+          rel="noopener"
+          role="tab"
+          aria-controls="pills-home"
+          aria-selected="true"
+        >
+          Zero to Hero: HzCAz troubleshooting
+        </a>
       </div>
     </div>
   );
