@@ -14,7 +14,7 @@ function App() {
               <Sidebar />
           
           </div>
-          <br />
+          
           <div className="col-lg-9 mainComponent">
            
             <MainComponent />

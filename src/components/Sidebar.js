@@ -12,7 +12,14 @@ import resume from "../assets/icons/resume.png";
 import cal from "../assets/icons/cal.png";
 import Google_Voice_icon from "../assets/icons/Google_Voice_icon.png";
 import mail from "../assets/icons/mail.png";
+
+
 export default function Sidebar() {
+// arrow function for emailing logic using local mailing client
+  const EmailLogic = () => {
+    window.open("mailto:dionnenoellabarretto.aw@gmail.com");
+  }
+
   return (
     <div className="sidebar">
       {/* <img src={dnb} alt="DNB Profile Pic" className="" /> */}
@@ -38,7 +45,7 @@ export default function Sidebar() {
         </a>
       </div>
       <hr />
-      <div className="contact">
+      <div className="sidebar_contact">
         <div className="sidebar_items">
           <a
             href="https://www.linkedin.com/in/dionnenoellabarretto/"
@@ -80,6 +87,7 @@ export default function Sidebar() {
             href="mailto:dionnenoellabarretto.aw@gmail.com"
             rel="noopener noreferrer"
             target="_blank"
+            onClick={EmailLogic}
           >
             <img
               title="Email Me (by clicking the email icon) using your local mailing client"
@@ -102,7 +110,8 @@ export default function Sidebar() {
           </a>
         </div>
         <hr />
-        <a href="http://">
+        {/* <a href={resume imported file link} download="pdf name"> */}
+        <a href="https://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharing">
           <div className="sidebar_resume">
             <img
               src={resume}
@@ -252,9 +261,9 @@ export default function Sidebar() {
       </div>
       <hr />
       <div >
-        <strong className="presentations">VMWorld 2019 Speaker Sessions</strong> <br />
+        <strong className="sidebar_ppt">VMWorld 2019 Speaker Sessions</strong> <br />
         <a
-          className="sidebar_ppt"
+          
           href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Flive-from-vmworld-with-linus-bourque-principal-instructor-and-dionne-noella-barr%2F358103825126606%2F&width=200&show_text=false&height=125&appId"
           title="Click to be redirected to a facebook video"
           rel="noopener"
@@ -266,7 +275,7 @@ export default function Sidebar() {
         </a>
         <br />
         <a
-          className="sidebar_ppt"
+          
           href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Fbecoming-troubleshooting-superheroes-for-horizon-cloud%2F720625145042964%2F&width=200&show_text=false&height=125&appId"
           title="Click to be redirected to a facebook video"
           rel="noopener"
