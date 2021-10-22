@@ -2,6 +2,7 @@ import React from "react";
 // importing each image component
 // import dnb from "../assets/dnb.jpg";
 import Google from "../assets/Google.gif";
+import cert from "../assets/icons/cert.png";
 import github from "../assets/icons/github.png";
 import linkedin from "../assets/icons/linkedin.png";
 import qwiklabs from "../assets/icons/qwiklabs.png";
@@ -13,12 +14,11 @@ import cal from "../assets/icons/cal.png";
 import Google_Voice_icon from "../assets/icons/Google_Voice_icon.png";
 import mail from "../assets/icons/mail.png";
 
-
 export default function Sidebar() {
-// arrow function for emailing logic using local mailing client
+  // arrow function for emailing logic using local mailing client
   const EmailLogic = () => {
     window.open("mailto:dionnenoellabarretto.aw@gmail.com");
-  }
+  };
 
   return (
     <div className="sidebar">
@@ -68,6 +68,16 @@ export default function Sidebar() {
               src={github}
               alt="github"
               title="Click to view my Github Profile"
+              className="sidebar_icon"
+            />
+          </a>
+          <a
+            href="https://www.credly.com/users/dionne-noella-barretto/badges"
+            rel="noopener noreferrer" target="_blank">
+            <img
+              src={cert}
+              alt="Certificate"
+              title="Click to view my Certifications"
               className="sidebar_icon"
             />
           </a>
@@ -260,10 +270,10 @@ export default function Sidebar() {
         </figure>
       </div>
       <hr />
-      <div >
-        <strong className="sidebar_ppt">VMWorld 2019 Speaker Sessions</strong> <br />
+      <div>
+        <strong className="sidebar_ppt">VMWorld 2019 Speaker Sessions</strong>{" "}
+        <br />
         <a
-          
           href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Flive-from-vmworld-with-linus-bourque-principal-instructor-and-dionne-noella-barr%2F358103825126606%2F&width=200&show_text=false&height=125&appId"
           title="Click to be redirected to a facebook video"
           rel="noopener"
@@ -275,7 +285,6 @@ export default function Sidebar() {
         </a>
         <br />
         <a
-          
           href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Fbecoming-troubleshooting-superheroes-for-horizon-cloud%2F720625145042964%2F&width=200&show_text=false&height=125&appId"
           title="Click to be redirected to a facebook video"
           rel="noopener"
