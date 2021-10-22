@@ -46,3 +46,11 @@ height: 90vh;
     width: 25px;
     height: 25px;
 }
+
+
+.sidebar_company{
+    height: 40px;
+   width: 70px;
+   object-fit: contain;
+   border: 30px;
+}
