@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
+/* https://fonts.google.com/specimen/Kaushan+Script?query=kaushan */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 /* https://uigradients.com/#NeonLife OR https://dionnenoellabarretto.github.io/RandomHexCodeColorGradientSelector/ */
 body{
@@ -8,7 +9,7 @@ body{
 
 }
 .sidebar{
-    background-color: rgb(228, 226, 226);
+    background-color: rgb(180, 179, 179);
     height: 100%;
     border-radius: 20px;
     padding: 25px 15px;
@@ -18,7 +19,7 @@ body{
 }
 
 .mainComponent {
-    background-color:rgb(228, 226, 226); 
+    background-color:rgb(180, 179, 179); 
     border-radius: 20px;
     padding: 25px 15px;
     box-shadow: 0 0 15px black;
@@ -36,8 +37,9 @@ height: 90vh;
 /* styling sidebar elements */
 
 .sidebar_Img{
-   height: 110px;
-   width: 120px;
+   height: 250px;
+   width: 190px;
+   /* to maintain aspect ratio */
    object-fit: contain;
    border: 30px; 
 }
@@ -53,4 +55,18 @@ height: 90vh;
    width: 70px;
    object-fit: contain;
    border: 30px;
+}
+
+.sidebar_name{
+    font-family: 'Kaushan Script', cursive;
+    margin: 20px 0;
+}
+
+.sidebar_name>span {
+color: #0575E6;
+}
+
+.sidebar_item {
+    margin-bottom: 6px;
+    padding-top: 6px;
 }

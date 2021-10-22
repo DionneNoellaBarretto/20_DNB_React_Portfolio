@@ -1,6 +1,6 @@
 import React from "react";
 // importing each image component
-import dnb from "../assets/dnb.jpg";
+// import dnb from "../assets/dnb.jpg";
 import Google from "../assets/Google.gif";
 import github from "../assets/icons/github.png";
 import linkedin from "../assets/icons/linkedin.png";
@@ -15,19 +15,27 @@ import mail from "../assets/icons/mail.png";
 export default function Sidebar() {
   return (
     <div className="sidebar">
-      <img src={dnb} alt="DNB Profile Pic" className="sidebar_Img" />
+      {/* <img src={dnb} alt="DNB Profile Pic" className="" /> */}
+      {/* replacing my profile image with a dev card that has my profile picture */}
+      <a href="https://app.daily.dev/dnb">
+            <img
+              className="sidebar_Img"
+              title="Click to view my DailyDev Profile"
+              src="https://api.daily.dev/devcards/2b2ffde3884c4d9d8b089e028c6d6e2b.png?r=si5"
+              alt="Dionne Noella Barretto's Dev Card"
+            />
+          </a>
       <div className="sidebar_name">
         Dionne Noella <span> Barretto</span>
       </div>
       <div className="sidebar_title">
         {" "}
-        Senior Solutions Consultant @{" "}
-        <img src={Google} alt="Google Gif" className="sidebar_company" />{" "}
+        Senior Solutions Consultant
+        <img src={Google} alt="Google Gif" className="sidebar_company" />
       </div>
       <hr />
       <div classname="contact">
         <div className="sidebar_items">
-          
           <a
             href="https://www.linkedin.com/in/dionnenoellabarretto/"
             rel="noopener noreferrer"
@@ -154,7 +162,7 @@ export default function Sidebar() {
               className="sidebar_icon"
             />
           </a>
-          
+
           <a
             href="https://stackoverflow.com/users/dionne-noella-barretto"
             target="blank"
@@ -231,6 +239,7 @@ export default function Sidebar() {
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/512px-Repl.it_logo.svg.png"
             />
           </a>
+          
         </figure>
       </div>
     </div>
