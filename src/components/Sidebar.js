@@ -1,7 +1,7 @@
 import React from "react";
 // importing each image component
 // import dnb from "../assets/dnb.jpg";
-import Google from "../assets/Google.gif";
+import Gcloud from "../assets/icons/Gcloud.gif";
 import cert from "../assets/icons/cert.png";
 import github from "../assets/icons/github.png";
 import linkedin from "../assets/icons/linkedin.png";
@@ -37,14 +37,16 @@ export default function Sidebar() {
         <strong className="sidebar_name">
           Dionne Noella <span> Barretto</span>
         </strong>
-      </div>
+      </div> <br/> 
       <div className="sidebar_title">
         <strong> Senior Solutions Consultant </strong>
         <a href="https://g.co/kgs/t8KRK8">
-          <img src={Google} alt="Google Gif" className="sidebar_company" />
+          <img src={Gcloud} alt="Google Cloud Gif" className="sidebar_company" />
         </a>
       </div>
+      <br/>
       <hr />
+      <br/>
       <div className="sidebar_contact">
         <div className="sidebar_items">
           <a
@@ -119,6 +121,7 @@ export default function Sidebar() {
             />
           </a>
         </div>
+        <br/>
         <hr />
         {/* <a href={resume imported file link} download="pdf name"> */}
         <a href="https://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharing">
