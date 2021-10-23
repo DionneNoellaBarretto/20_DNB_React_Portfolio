@@ -1,260 +1,307 @@
 /* https://fonts.google.com/specimen/Kaushan+Script?query=kaushan */
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 
 /* https://uigradients.com/#NeonLife OR https://dionnenoellabarretto.github.io/RandomHexCodeColorGradientSelector/ */
-body{
-    background-image: linear-gradient( to right bottom, #69f09f,#3794f1);
-    /* to prevent the body runover */
-    background-attachment: fixed;
-
+body {
+  background-image: linear-gradient(to right bottom, #69f09f, #3794f1);
+  /* to prevent the body runover */
+  background-attachment: fixed;
+  color: rgb(15, 15, 15);
 }
 
 /* Sidebar Component Section */
-.sidebar{
-    background-color: rgb(202, 200, 200);
-    height: 100%;
-    border-radius: 20px;
-    padding: 15px 8px;
-    box-shadow: 0 0 15px black;
-    text-align: center;
-
+.sidebar {
+  background-color: rgb(202, 200, 200);
+  height: 100%;
+  border-radius: 20px;
+  padding: 15px 8px;
+  box-shadow: 0 0 15px black;
+  text-align: center;
 }
 
 .mainComponent {
-    background-color: rgb(202, 200, 200);
-    border-radius: 20px;
-    padding: 10px 8px;
-    box-shadow: 0 0 15px rgb(15, 15, 15);
+  background-color: rgb(202, 200, 200);
+  border-radius: 20px;
+  padding: 10px 8px;
+  box-shadow: 0 0 15px rgb(15, 15, 15);
 }
 
-.row{
-/* for full height for the sidebar/mainComponent sections */
-height: 90vh;
+.row {
+  /* for full height for the sidebar/mainComponent sections */
+  height: 90vh;
 }
 
-.container{
-    padding: 50px;
+.container {
+  padding: 20px;
 }
 
 /* styling sidebar elements */
 
-.sidebar_Img{
-   height: 350px;
-   width: 220px;
-   /* to maintain aspect ratio */
-   object-fit: contain;
-   border: 30px; 
+.sidebar_Img {
+  height: 350px;
+  width: 220px;
+  /* to maintain aspect ratio */
+  object-fit: contain;
+  border: 30px;
 }
-.sidebar_Img:hover{
-    transform: scale(1.1);
-    border: 30px; 
-    transition: all 0.5s ease;
- }
+.sidebar_Img:hover {
+  transform: scale(1.1);
+  border: 30px;
+  transition: all 0.5s ease;
+}
 
-.sidebar_icon {
-    width: 45px;
-    height: 45px;
-    margin:3px;
-    padding: 5px;
+.sidebar_icon,.sidebar_location {
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+  padding: 5px;
 }
 .sidebar_icon:hover {
-    transition: all 0.5s ease;
-    cursor: pointer;
-    transform: scale(2.0);
-    border:rgb(34, 34, 34) 0.2px dashed;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  transform: scale(2);
+  border: rgb(34, 34, 34) 0.2px dashed;
 }
 
-.about_company, .sidebar_company{
-    height: 60px;
-   width: 90px;
-   object-fit: contain;
-   border: 30px;
-}
-.sidebar_resume{
-    background-image: linear-gradient( to right bottom, #3794f1,#69f09f);
-    border-radius: 20px;
-}
-.sidebar_resume:hover{
-    transform: scale(1.1);
-    /* https://css-tricks.com/almanac/properties/t/transition/ */
-    transition: all 0.5s ease;
+.sidebar_location:hover {
+  transition: all 0.5s ease;
+  cursor: pointer;
+  transform: scale(0.9);
+  border: rgb(34, 34, 34) 0.2px dashed;
 }
 
-.sidebar_company:hover{
-    transform: scale(1.4);
-    transition: all 0.5s ease;
+.resume_company,.about_company,
+.sidebar_company {
+  height: 60px;
+  width: 90px;
+  object-fit: contain;
+  border: 30px;
+}
+.sidebar_resume {
+  background-image: linear-gradient(to right bottom, #3794f1, #69f09f);
+  border-radius: 20px;
+}
+.sidebar_resume:hover {
+  transform: scale(0.95);
+  /* https://css-tricks.com/almanac/properties/t/transition/ */
+  transition: all 0.5s ease;
 }
 
-.about_company:hover{
-    transform: scale(0.8);
-    transition: all 0.5s ease;
+.sidebar_company:hover {
+  transform: scale(1.4);
+  transition: all 0.5s ease;
 }
 
-.sidebar_name, .sidebar_ppt{
-    font-family: 'Kaushan Script', cursive;
-    margin: 20px 0;
-    font-size: 1.7rem;
+.about_company:hover {
+  transform: scale(0.8);
+  transition: all 0.5s ease;
 }
 
-.sidebar_name>span {
-color: #3794f1;
+.sidebar_name,
+.sidebar_ppt {
+  font-family: "Kaushan Script", cursive;
+  margin: 20px 0;
+  font-size: 1.7rem;
+}
+
+.sidebar_name > span {
+  color: #3794f1;
 }
 
 .sidebar_item {
-    margin-bottom: 6px;
-    padding-top: 6px;
+  margin-bottom: 6px;
+  padding-top: 6px;
 }
 
-.sidebar_title{
-background-color: rgb(161, 159, 159);
-border-radius: 15px;
+.sidebar_title {
+  background-color: rgb(161, 159, 159);
+  border-radius: 15px;
+  font-family: cursive;
 }
 
-a{
-    text-decoration:none ;
-    color: #3794f1;
+a {
+  text-decoration: none;
+  color: #3794f1;
 }
 
-a:hover{
-    color: rgb(26, 13, 216);
-    
+a:hover {
+  color: rgb(26, 13, 216);
 }
-a:visited{
-    color: rgb(6, 77, 29);
+a:visited {
+  color: rgb(6, 77, 29);
 }
 
 /* spacing out the div using margin top/ bottom for the 2 component div's! */
-@media(max-width:972px){
-    .mainComponent{
-        margin: 30px 0;
-    
-    }
+@media (max-width: 972px) {
+  .mainComponent {
+    margin: 30px 0;
+  }
 }
 /* Main Component Section Styling */
 /*  Nav Bar Section */
 
-.navbar-menu{
-display: flex;
+.navbar-menu {
+  display: flex;
 }
-.navbar_active{
-font-size: 2.4rem;
-font-weight: 700;
-color: #0967c5;
-border-bottom: 4px solid #3794f1;
+.navbar_active {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #0967c5;
+  border-bottom: 4px solid #3794f1;
+  font-family: "Kaushan Script", cursive;
 }
-.navbar-menu-item{
-margin-right: 20px;
-text-decoration: none;
-color: #3e3e3f;
-font-size: 1.3rem;
-font-weight: bolder;
+.navbar-menu-item {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #3e3e3f;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  font-family: "Kaushan Script", cursive;
 }
 
-.navbar-menu-item:hover{
-    background-clip: text;
-    background: -webkit-linear-gradient(#21f074,#127eeb);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    cursor: pointer;
+.navbar-menu-item:hover {
+  background-clip: text;
+  background: -webkit-linear-gradient(#21f074, #127eeb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
 }
 
 /* About / Skills Section */
-em{
-    font-size: 1rem;
+p>em {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  background-clip: text;
+  background: -webkit-linear-gradient(#21f074, #127eeb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.about{
-    padding: 5px 8px;
-    
-}
-
-.about_dnb{
-    font-size: 1.1rem;
-    padding: 8px;
-}
-
-.skills_container,.about_container{
-    padding: 8px;
-    background-color:  rgb(197, 194, 194);
-    border-radius:10px;
-    box-shadow: 0 0 15px rgb(15, 15, 15);
+.about {
+  padding: 5px 8px;
 }
 
-
-
-.skills{
-    font-size: 1.1rem;
-    font-weight: 700;
-    color:rgb(15, 15, 15);
-    
+.about_dnb {
+  font-size: 1.1rem;
+  padding: 8px;
 }
 
-.skill-card{
-    margin: 5px;
-    padding:10px;
-    display:flex;
-    border-radius: 10px;
-
+.skills_container,
+.about_container {
+  padding: 8px;
+  background-color: rgb(197, 194, 194);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(15, 15, 15);
 }
 
-.skill-card_icon{
-   width:40px;
-   height:40px; 
+.skills {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: rgb(15, 15, 15);
 }
 
-.skill-card_title{
-    margin: 5px;
-    padding:7px;
+
+
+.skill-card {
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  border-radius: 10px;
 }
 
-.skill-card_proficiency{
-    margin: 5px;
-    padding: 5px;
+.skill-card_icon {
+  width: 40px;
+  height: 40px;
 }
 
-.row{
-height: 90vh;
+.skill-card_title {
+  margin: 5px;
+  padding: 7px;
+}
+
+.skill-card_proficiency {
+  margin: 5px;
+  padding: 5px;
+}
+
+.row {
+  height: 90vh;
 }
 
 /* Skills Progress Bars */
 
 h6.tittle-w3 {
-    text-shadow: 2px 2px 2px rgba(41, 41, 41, 0.15);
-    font-size: 2.5em;
-    color: #333338;
-    font-weight: 700;
-    
+  text-shadow: 2px 2px 2px rgba(41, 41, 41, 0.15);
+  font-size: 2.5em;
+  color: #333338;
+  font-weight: 700;
 }
 
 /* width of the skills bars */
 h3.progress-tittle-w3 {
-    color: #4f4f50;
-    font-size: 0.85em;
-    text-transform: uppercase;
-    font-weight: bolder;
-    margin-bottom: 1em;
+  color: #4f4f50;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-bottom: 1em;
 }
 
 .progress-one .progress {
-    height: 0.5rem;
-    background: #b3b4b4;
+  height: 0.5rem;
+  background: #b3b4b4;
 }
 
-.ce{
-    width: 100%;
+.progress:hover {
+    transform: scale(0.96);
+  transition: all 0.5s ease;
+  }
+
+.ce {
+  width: 100%;
 }
-.Leadership{
-    width: 99%;}
+.Leadership {
+  width: 99%;
+}
 
-    .PM{
-        width: 97%;
-    }
+.PM {
+  width: 97%;
+}
 
-    .VM{
-        width:90%;
-    }
-    .CP{
-        width: 80%
-    }
-    .WD{
-        width:85%
-    }
+.VM {
+  width: 90%;
+}
+.CP {
+  width: 80%;
+}
+.WD {
+  width: 85%;
+}
+
+
+/* Resume Sections */
+
+.resume_row, .experience, .recognition{
+  height: 105vh;
+  background-color: rgb(197, 194, 194);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(15, 15, 15);
+}
+
+.resume_container{
+  padding: 4px;
+}
+
+.summary, .download{
+  font-family: cursive;
+}
+
+.resume_company {
+  height: 50px;
+  width: 80px;
+  object-fit: contain;
+  border: 30px;
+}
+
+.resume_company:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+}

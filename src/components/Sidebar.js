@@ -3,6 +3,7 @@ import React from "react";
 // import dnb from "../assets/dnb.jpg";
 import Gcloud from "../assets/icons/Gcloud.gif";
 import cert from "../assets/icons/cert.png";
+import pin from "../assets/icons/pin.png";
 import github from "../assets/icons/github.png";
 import linkedin from "../assets/icons/linkedin.png";
 import qwiklabs from "../assets/icons/qwiklabs.png";
@@ -33,10 +34,12 @@ export default function Sidebar() {
         />
       </a>
       <div>
-        <br />
+      
         <strong className="sidebar_name">
           Dionne Noella <span> Barretto</span>
-        </strong>
+        </strong><br /><a href="https://goo.gl/maps/giK32Dc7DojxcPs18">
+          <img src={pin} alt="Map Location" className="sidebar_location" />
+        Cary, NC </a>
       </div> <br/> 
       <div className="sidebar_title">
         <strong> Senior Solutions Consultant </strong>

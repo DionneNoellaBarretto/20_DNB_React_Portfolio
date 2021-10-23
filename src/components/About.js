@@ -77,7 +77,7 @@ export default function About() {
                 aria-valuemax="100"
                 title="100% Proficiency on a scale of 100"
               ></div>
-            </div>
+            </div><br/>
             <h3 className="progress-tittle-w3">Leadership</h3>
             <div className="progress">
               <div
@@ -88,7 +88,7 @@ export default function About() {
                 aria-valuemax="100"
                 title="99% Proficiency on a scale of 100"
               ></div>
-            </div>
+            </div><br/>
             <h3 className="progress-tittle-w3">Project & Program Management</h3>
             <div className="progress">
               <div
@@ -99,7 +99,7 @@ export default function About() {
                 aria-valuemax="100"
                 title="97% Proficiency on a scale of 100"
               ></div>
-            </div>
+            </div><br/>
             <h3 className="progress-tittle-w3">VMware Technologies</h3>
             <div className="progress">
               <div
@@ -110,7 +110,7 @@ export default function About() {
                 aria-valuemax="100"
                 title="90% Proficiency on a scale of 100"
               ></div>
-            </div>
+            </div><br/>
             <h3 className="progress-tittle-w3">Cloud Platforms</h3>
             <div className="progress">
               <div
@@ -121,7 +121,7 @@ export default function About() {
                 aria-valuemax="100"
                 title="80% Proficiency on a scale of 100"
               ></div>
-            </div>
+            </div><br/>
             <h3 className="progress-tittle-w3">Web Development</h3>
             <div className="progress">
               <div
