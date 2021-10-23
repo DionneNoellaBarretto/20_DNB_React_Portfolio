@@ -36,7 +36,7 @@ export default function Sidebar() {
       <div>
       
         <strong className="sidebar_name">
-          Dionne Noella <span> Barretto</span>
+        <span>D</span>ionne <span>N</span>oella <span> B</span>arretto
         </strong><br /><a href="https://goo.gl/maps/giK32Dc7DojxcPs18">
           <img src={pin} alt="Map Location" className="sidebar_location" />
         Cary, NC </a>
@@ -127,7 +127,9 @@ export default function Sidebar() {
         <br/>
         <hr />
         {/* <a href={resume imported file link} download="pdf name"> */}
-        <a href="https://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharing">
+        {/* https://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharinghttps://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharing */}
+        {/* redirecting to the resume tab */}
+        <a href="/resume">
           <div className="sidebar_resume">
             <img
               src={resume}

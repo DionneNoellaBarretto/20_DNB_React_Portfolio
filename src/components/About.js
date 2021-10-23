@@ -21,7 +21,7 @@ export default function About() {
               alt="Google Logo"
             />
           </a>
-          as a Senior Solutions Consultant (TAM) in the Google Cloud division.
+          as a Senior Solutions Consultant <a href="https://careers.google.com/jobs/results/98457842215723718-technical-account-manager-google-cloud-professional-services/">(TAM) </a> in the Google Cloud division.
 
           Previously I was at
           <a href="https://www.rubrik.com/">
@@ -47,9 +47,9 @@ export default function About() {
               </a>
             </strong>
           </span>
-          , where I worked my way up the ranks from a Entry level Application Support Engineer to a
+          , where I worked my way up the ranks from an Entry-level Application Support Engineer to a
           Horizon Cloud Global Escalation Manager in the space of Desktop and
-          Application as a Service during my ~5 year tenure with the organization.
+          Application as a Service during my ~5-year tenure with the organization.
           <br /><br /> My 7+ years of experience in the domain of customer experience
           and service management positions me to provide unique perspectives on
           how end users interact with websites, software and platforms!
@@ -58,7 +58,7 @@ export default function About() {
           I’m experienced in testing, troubleshooting,consulting and
           architecting solutions for cloud technologies which form the basis for
           web application deployments as a hosting platform for enterprises-an
-          area I am keen to work in, to bridge the 2 worlds.
+          area I am keen to work in, to bridge the 2 worlds!
         </p>
       </div>
       <hr />
