@@ -18,14 +18,14 @@ import RegexGist from "../../assets/icons/RegexGist.png";
 import ReactPortfolio from "../../assets/icons/ReactPortfolio.png";
 import UpdatedPortfolio from "../../assets/icons/UpdatedPortfolio.png";
 import DevelopersLifeInGifs from "../../assets/icons/UpdatedPortfolio.png";
-// import CSSPortfolio from "../../assets/icons/CSSPortfolio.png";
+import CSSPortfolio from "../../assets/icons/CSSPortfolio.png";
 
 // reference: https://www.youtube.com/watch?v=rVaqJCYcr8E&list=PLQKg8mIgoxKop9l92Zjd-Pmxkf-HQmclQ&index=8 
 
 // array of project specifics grouped as objects
 const data_projects = [
     {
-        name: "Dionne Noella Barretto - React Portfolio",
+        name: "React Portfolio",
         image: ReactPortfolio,
         // this needs to be changed
         deployed_url: "https://github.com/DionneNoellaBarretto/20_DNB_React_Portfolio",
@@ -42,7 +42,7 @@ const data_projects = [
     },
 
     {
-        name: "Feedster - Group Project #2 - Interactive Full Stack Web Application",
+        name: "Feedster - Project #2",
         image: Feedster,
         deployed_url: "https://feedster-twitter-feed.herokuapp.com/",
         github_url: "https://github.com/DionneNoellaBarretto/Feedster",
@@ -65,7 +65,7 @@ const data_projects = [
     },
 
     {
-        name: "Employee Content Management System",
+        name: "Employee CMS",
         image: EmployeeContentManagementSystem,
         github_url: "https://github.com/DionneNoellaBarretto/12-EmployeeContentManagementSystem_using_mysql-node.js",
         category: ["mysql2", "sequelize", "dotenv", "express.js", "node.js", "npm", "nodemon", "chalk.js", "console.table"]
@@ -85,7 +85,7 @@ const data_projects = [
         category: ["vanilla"]
     },
     {
-        name: "Dionne Noella Barretto - Updated Portfolio",
+        name: "Updated Portfolio",
         image: UpdatedPortfolio,
         
         deployed_url: "https://dionnenoellabarretto.github.io/DionneNoellaBarretto_Portfolio/",
@@ -95,7 +95,7 @@ const data_projects = [
     
 
     {
-        name: "A Simple Random Color - Hex Code Generator",
+        name: " Hex Code Generator",
         image: HexColorExample,
         deployed_url: "https://dionnenoellabarretto.github.io/RandomHexCodeColorGradientSelector/",
         github_url: "https://github.com/DionneNoellaBarretto/RandomHexCodeColorGradientSelector ",
@@ -110,21 +110,21 @@ const data_projects = [
         category: ["html", "css", "express.js", "node.js", "heroku" ]
     },
     {
-        name: "Feeling App - Group Project #1 - Interactive Web Application",
+        name: "Feeling App - Project #1",
         image: ImFeelingApp,
         deployed_url: "https://lbladma.github.io/Project1-Interactive-Web-APP/",
         github_url: "https://github.com/DionneNoellaBarretto/ImFeeling-Project1-Interactive-Web-APP",
         category: ["project","html", "css", "js" ]
     },
     {
-        name: "Work Day Scheduler",
+        name: "Workday Scheduler",
         image: WorkDayScheduler,
         deployed_url: "https://dionnenoellabarretto.github.io/05-Hourly_Workday_Scheduler-using_jQuery/",
         github_url: "https://github.com/DionneNoellaBarretto/05-Hourly_Workday_Scheduler-using_jQuery",
         category: ["html", "css", "js", "jquery", "moment.js" ]
     },
     {
-        name: "Timed Code JS Quiz",
+        name: "Timed Code Quiz",
         image: CodeQuiz,
         deployed_url: "https://dionnenoellabarretto.github.io/04-CodeQuizApp_HW4/",
         github_url: "https://github.com/DionneNoellaBarretto/04-CodeQuizApp_HW4",
@@ -138,42 +138,42 @@ const data_projects = [
         category: ["html", "css",]
     },
     {
-        name: "A Simple Interest Calculator",
+        name: "Simple Interest Calculator",
         image: SimpleInterestCalculator,
         deployed_url: "https://dionnenoellabarretto.github.io/Simple-Interest-Calculator/",
         github_url: "https://github.com/DionneNoellaBarretto/Simple-Interest-Calculator",
         category: ["html", "css", "js" ]
     },
-    // {
-    //     name: "Dionne Noella Barretto - Advanced CSS Portfolio",
-    //     image: CSSPortfolio,
-    //     deployed_url: "https://dionnenoellabarretto.github.io/02-Advanced-CSS-Portfolio/",
-    //     github_url: "https://github.com/DionneNoellaBarretto/02-Advanced-CSS-Portfolio",
-    //     category: ["html", "css", "js", "portfolio" ]
-    // },
     {
-        name: " Tim Berners Lee Tribute Page",
+        name: "Advanced CSS Portfolio",
+        image: CSSPortfolio,
+        deployed_url: "https://dionnenoellabarretto.github.io/02-Advanced-CSS-Portfolio/",
+        github_url: "https://github.com/DionneNoellaBarretto/02-Advanced-CSS-Portfolio",
+        category: ["html", "css", "js", "portfolio" ]
+    },
+    {
+        name: "Tribute Page",
         image: TributePage,
         deployed_url: "https://dionnenoellabarretto.github.io/FreeCodeCampTributePage_TimBernersLee/",
         github_url: "https://github.com/DionneNoellaBarretto/FreeCodeCampTributePage_TimBernersLee",
         category: ["html", "css"]
     },
     {
-        name: "Developers Life Through Gifs",
+        name: "My Fav Gifs",
         image: DevelopersLifeInGifs,
         deployed_url: "https://dionnenoellabarretto.github.io/Developers-Life-Through-Gifs/",
         github_url: "https://github.com/DionneNoellaBarretto/Developers-Life-Through-Gifs",
         category: ["html", "css", "js" ]
     },
     {
-        name: "Weather Dashboard using APIs",
+        name: "Weather API Dashboard ",
         image: WeatherDashboard,
         deployed_url: "https://dionnenoellabarretto.github.io/06-Weather-Dashboard-API/",
         github_url: "https://github.com/DionneNoellaBarretto/06-Weather-Dashboard-API",
         category: ["html", "css", "js", "api" ]
     },
     {
-        name: "Dynamic Web Password Generator",
+        name: "Password Generator",
         image: PasswordGenerator,
         deployed_url: "https://dionnenoellabarretto.github.io/03--PasswordGenerator_JavaScript/",
         github_url: "https://github.com/DionneNoellaBarretto/03--PasswordGenerator_JavaScript",
