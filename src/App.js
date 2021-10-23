@@ -29,7 +29,7 @@ function App() {
               {/* NavBar Menu embedded and auto imported using the Auto Import extension */}
               <NavBar />
               {/* switch checks for matching component from the top and break at match!  */}
-              <Switch> 
+              <Switch>
                 {/* need to use exact path else the react would render elements from / page and /about page */}
                 <Route exact path="/">
                   <Landing />
