@@ -7,6 +7,7 @@ import {
   Redirect,
   Switch,
 } from "react-router-dom";
+import Landing from "./components/Landing";
 import About from "./components/About";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
@@ -20,17 +21,20 @@ function App() {
         <div className="container">
           <div className="row">
             {/* for large screens the width of sidebar is upto 3 cols anything smaller will occupy the full screen!  */}
-            <div className="col-lg-4">
+            <div className="col-lg-3">
               <Sidebar />
             </div>
 
-            <div className="col-lg-8 mainComponent">
+            <div className="col-lg-9 mainComponent">
               {/* NavBar Menu embedded and auto imported using the Auto Import extension */}
               <NavBar />
               {/* switch checks for matching component from the top and break at match!  */}
               <Switch> 
                 {/* need to use exact path else the react would render elements from / page and /about page */}
                 <Route exact path="/">
+                  <Landing />
+                </Route>
+                <Route exact path="/about">
                   <About />
                 </Route>
                 <Route exact path="/resume">

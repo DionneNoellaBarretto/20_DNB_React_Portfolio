@@ -278,31 +278,7 @@ export default function Sidebar() {
         </figure>
       </div>
       <hr />
-      <div>
-        <strong className="sidebar_ppt">VMWorld 2019 Speaker Sessions</strong>{" "}
-        <br />
-        <a
-          href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Flive-from-vmworld-with-linus-bourque-principal-instructor-and-dionne-noella-barr%2F358103825126606%2F&width=200&show_text=false&height=125&appId"
-          title="Click to be redirected to a facebook video"
-          rel="noopener"
-          role="tab"
-          aria-controls="pills-home"
-          aria-selected="true"
-        >
-          HzC Troubleshooting Super Heroes
-        </a>
-        <br />
-        <a
-          href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Fbecoming-troubleshooting-superheroes-for-horizon-cloud%2F720625145042964%2F&width=200&show_text=false&height=125&appId"
-          title="Click to be redirected to a facebook video"
-          rel="noopener"
-          role="tab"
-          aria-controls="pills-home"
-          aria-selected="true"
-        >
-          Zero to Hero: HzCAz troubleshooting
-        </a>
-      </div>
+      
     </div>
   );
 }

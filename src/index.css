@@ -97,8 +97,7 @@ body {
   transition: all 0.5s ease;
 }
 
-.sidebar_name,
-.sidebar_ppt {
+.sidebar_name {
   font-family: "Kaushan Script", cursive;
   margin: 20px 0;
   font-size: 1.7rem;
@@ -197,9 +196,12 @@ p>em {
   font-size: 1.1rem;
   font-weight: 700;
   color: rgb(15, 15, 15);
+  background-clip: text;
+  background: -webkit-linear-gradient( #21f074, #127eeb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px rgb(15, 15, 15);
 }
-
-
 
 .skill-card {
   margin: 5px;
@@ -280,7 +282,7 @@ h3.progress-tittle-w3 {
 /* Resume Sections */
 
 .resume_row, .experience, .recognition{
-  height: 105vh;
+  height: 115vh;
   background-color: rgb(197, 194, 194);
   border-radius: 10px;
   box-shadow: 0 0 15px rgb(15, 15, 15);

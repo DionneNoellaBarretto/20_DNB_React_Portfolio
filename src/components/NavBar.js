@@ -9,7 +9,7 @@ const NavBar = () => {
   useEffect(() => {
     let currentURL = window.location.href;
     // console.log(currentURL);
-    if (currentURL.endsWith("/")) {
+    if (currentURL.endsWith("/about")) {
       setActive("About");
     } else if (currentURL.endsWith("/resume")) {
       setActive("Resume");
@@ -17,6 +17,8 @@ const NavBar = () => {
       setActive("Projects");
     } else if (currentURL.endsWith("/contact")) {
       setActive("Contact");
+    } else if (currentURL.endsWith("/")) {
+      setActive("Landing Page");
     }
   }, [active]);
 
@@ -30,7 +32,7 @@ const NavBar = () => {
         {/* 2 ways of writing the same conditional statement that checks for not highlighted (active) items in the nav menu */}
         {active !== "About" && (
           /* using the link property from react-router-dom imported lib to route each of this nav menu items to their corresponding url */
-          <Link to="/">
+          <Link to="/about">
             <div
               className="navbar-menu-item"
               onClick={() => setActive("About")}
@@ -39,7 +41,16 @@ const NavBar = () => {
             </div>
           </Link>
         )}
-        
+        {active !== "Landing Page" && (
+          <Link to="/">
+            <div
+              className="navbar-menu-item"
+              onClick={() => setActive("Landing Page")}
+            >
+              Landing Page
+            </div>
+          </Link>
+        )}
         {active !== "Projects" && (
           <Link to="/projects">
             <div
@@ -47,7 +58,7 @@ const NavBar = () => {
               onClick={() => setActive("Projects")}
             >
               Projects
-            </div>{" "}
+            </div>
           </Link>
         )}
 
@@ -58,7 +69,7 @@ const NavBar = () => {
               onClick={() => setActive("Resume")}
             >
               Resume
-            </div>{" "}
+            </div>
           </Link>
         )}
 
