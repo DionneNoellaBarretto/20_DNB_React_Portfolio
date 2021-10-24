@@ -75,7 +75,7 @@ export default function Projects() {
             <ProjectCard key={project.name} projects={project} />
           ))
         }
-      </div> <hr/>
+      </div> 
     </motion.div> 
   );
 }

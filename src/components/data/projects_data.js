@@ -15,7 +15,7 @@ import WeatherDashboard from "../../assets/icons/WeatherDashboard.png";
 import PasswordGenerator from "../../assets/icons/PasswordGenerator.png";
 import FitnessTracker from "../../assets/icons/FitnessTracker.png";
 import RegexGist from "../../assets/icons/RegexGist.png";
-// import ReactPortfolio from "../../assets/icons/ReactPortfolio.png";
+
 import UpdatedPortfolio from "../../assets/icons/UpdatedPortfolio.png";
 import DevelopersLifeInGifs from "../../assets/icons/UpdatedPortfolio.png";
 import CSSPortfolio from "../../assets/icons/CSSPortfolio.png";
@@ -121,7 +121,7 @@ const data_projects = [
   },
 
   {
-    name: "Team Profile Generator",
+    name: "Profile Generator",
     image: TeamProfileGenerator,
     github_url:
       "https://github.com/DionneNoellaBarretto/10-ObjectOrientedProgramming_TeamProfileGenerator_Node.js_andJestUnitTests",

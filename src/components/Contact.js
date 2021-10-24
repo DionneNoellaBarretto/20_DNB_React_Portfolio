@@ -79,7 +79,7 @@ const Contact = () => {
   return (
     <div className="row">
       <br />
-      <motion.div className="col-lg-5 text-center Contact text-center"
+      <motion.div className="col-lg-7 text-center Contact text-center"
       variants={form_variant}
     // holds current state
     initial="hidden"
@@ -133,7 +133,7 @@ const Contact = () => {
         </Form> 
       </motion.div> 
       <hr/>
-        <motion.div className="col-lg-6 text-center contactMe "
+        <motion.div className="col-lg-5 text-center contactMe "
         variants={contact_variant}
     // holds current state
     initial="hidden"
