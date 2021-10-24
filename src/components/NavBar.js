@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
 // importing link from react router dom to define routes when nav menu items are clicked
 import { Link } from "react-router-dom";
+// for animation aesthetics
+import { motion } from "framer-motion";
 
 const NavBar = () => {
   //    state variable to keep track of the active nav menu item clicked
   // here about is the starting initial value we start off as  ona default first render state
-  const [active, setActive] = useState('');
+  const [active, setActive] = useState("");
   useEffect(() => {
     let currentURL = window.location.href;
     // console.log(currentURL);
@@ -20,9 +22,34 @@ const NavBar = () => {
     }
   }, [active]);
 
+  const navbar_variant = {
+    hidden: {
+      y: "-20h",
+      opacity: 0,
+    },
+    visible: {
+      y: "0",
+      opacity: 1,
+      transition: {
+        delay:0.2,
+        duration:0.7,
+        type:'spring'
+      }
+    },
+  };
+
   // the setActive (reducer) takes on different values each time a nav menu item is clicked
   return (
-    <div className="navbar">
+    // converts the div to a motion enabled div https://www.framer.com/docs/animation/
+    <motion.div
+      className="navbar"
+      // accessing properties of motion
+      variants={navbar_variant}
+      // holds current state
+      initial="hidden"
+      // holds future state
+      animate="visible"
+    >
       {/* keeping dynamic track of what's the actively highlighted section from the nav bar menu */}
       <div className="navbar_active"> {active} </div>
       <div className="navbar-menu">
@@ -39,7 +66,7 @@ const NavBar = () => {
             </div>
           </Link>
         )}
-        
+
         {active !== "Projects" && (
           <Link to="/projects">
             <div
@@ -73,7 +100,7 @@ const NavBar = () => {
           </Link>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

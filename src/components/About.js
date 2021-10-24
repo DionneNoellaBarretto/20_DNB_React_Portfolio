@@ -2,10 +2,40 @@ import React from "react";
 import Google from "../assets/Google.gif";
 import Rubrik from "../assets/icons/Rubrik.png";
 import vmware from "../assets/icons/vmware.jpg";
+import { motion } from "framer-motion";
 
 export default function About() {
+  
+  const about_variant = {
+    hidden: {
+      x: "30vw",
+      
+    },
+    visible: {
+      x: "0",
+      
+      transition: {
+        delay:0.2,
+        duration:0.5,
+        type:'spring'
+      }
+    },
+    exit:{
+      opacity:0,
+      transition: {
+        ease: 'easeInOut'
+      },
+    }
+  };
   return (
-    <div className="about">
+    <motion.div className="about" 
+    // accessing properties of motion
+    variants={about_variant}
+    // holds current state
+    initial="hidden"
+    // holds future state
+    animate="visible"
+    exit="exit">
       <h6 className="about_dnb"> </h6>
       <div className="container about_container">
         <h6 className="skills text-uppercase tittle-w3"> About </h6>
@@ -136,6 +166,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

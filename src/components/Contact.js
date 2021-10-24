@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 import cal from "../assets/icons/cal.png";
 import Google_Voice_icon from "../assets/icons/Google_Voice_icon.png";
 import mail from "../assets/icons/mail.png";
-
+import { motion } from "framer-motion";
 // as seen in https://getbootstrap.com/docs/4.1/components/forms/ &  https://javascript.plainenglish.io/how-to-build-a-contact-form-in-react-that-sends-emails-using-emailjs-70011d2563a3
 import "../index.css";
 
@@ -42,11 +42,50 @@ const Contact = () => {
     window.open("mailto:dionnenoellabarretto.aw@gmail.com");
   };
 
+  const form_variant = {
+    hidden: {
+      y: "100vh",
+    },
+    visible: {
+      y: "0",
+
+      transition: {
+        delay: 0.2,
+        duration: 0.5,
+        type: "spring",
+      },
+    },
+  };
+  const contact_variant = {
+    hidden: {
+      y: "-100vh",
+    },
+    visible: {
+      y: "0",
+// https://www.framer.com/docs/transition/#tween
+      transition: {
+        duration: 0.9,
+        type: "tween",
+      },
+    },
+    exit:{
+      opacity:0,
+      transition: {
+        ease: 'easeInOut'
+      },
+    }
+  };
 
   return (
     <div className="row">
       <br />
-      <div className="col-lg-5 text-center Contact text-center">
+      <motion.div className="col-lg-5 text-center Contact text-center"
+      variants={form_variant}
+    // holds current state
+    initial="hidden"
+    // holds future state
+    animate="visible"
+    exit="exit">
       {/* --- handleOnSubmit method --- */}
         <Form className="contactForm form-text " onSubmit={handleOnSubmit}>
           <Form.Field
@@ -92,9 +131,16 @@ const Contact = () => {
       </div>
           <Button type="submit">Submit</Button>
         </Form> 
-      </div> 
+      </motion.div> 
       <hr/>
-        <div className="col-lg-6 text-center contactMe "> <br /><br /><br /><br />
+        <motion.div className="col-lg-6 text-center contactMe "
+        variants={contact_variant}
+    // holds current state
+    initial="hidden"
+    // holds future state
+    animate="visible"
+    exit="exit">
+         <br /><br /><br /><br />
           <div className="col-lg-11 sidebar_items">
             <h6> Schedule time with Dionne Noella Barretto </h6>
             <a
@@ -143,7 +189,7 @@ const Contact = () => {
               />
             </a>
           </div><hr/>
-        </div>
+        </motion.div>
       </div>
 
 

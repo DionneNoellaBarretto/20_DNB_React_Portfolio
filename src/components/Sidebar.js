@@ -14,6 +14,7 @@ import resume from "../assets/icons/resume.png";
 import cal from "../assets/icons/cal.png";
 import Google_Voice_icon from "../assets/icons/Google_Voice_icon.png";
 import mail from "../assets/icons/mail.png";
+import { motion } from "framer-motion";
 
 export default function Sidebar() {
   // arrow function for emailing logic using local mailing client
@@ -21,8 +22,30 @@ export default function Sidebar() {
     window.open("mailto:dionnenoellabarretto.aw@gmail.com");
   };
 
+  const sidebar_variant = {
+    hidden: {
+      x: "-20vw",
+     
+    },
+    visible: {
+      x: "0",
+      
+      transition: {
+        delay:0.1,
+        duration:0.5,
+        type:'spring'
+      }
+    },
+  };
+
+
   return (
-    <div className="sidebar">
+    <motion.div
+      className="sidebar"
+      variants={sidebar_variant}
+      initial="hidden"
+      animate="visible"
+    >
       {/* <img src={dnb} alt="DNB Profile Pic" className="" /> */}
       {/* replacing my profile image with a dev card that has my profile picture */}
       <a
@@ -155,7 +178,7 @@ export default function Sidebar() {
             <img
               src={resume}
               alt="Resume"
-              className="sidebar_icon"
+              className=" sidebar_resume_icon"
               title="Click to view my Resume"
             />
             View my Resume
@@ -339,6 +362,6 @@ export default function Sidebar() {
           Dionne Noella Barretto
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 }

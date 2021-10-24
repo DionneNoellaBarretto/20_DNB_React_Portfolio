@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import data_projects from "./data/projects_data";
 import ProjectCard from "../components/ProjectCard";
-
+import { motion } from "framer-motion";
 export default function Projects() {
 
 
@@ -15,8 +15,33 @@ export default function Projects() {
     setActive(name);
   }
 
+  const project_variant ={
+    hidden: {
+      opacity: 0,
+    },
+    visible: {
+     opacity: 1,
+
+      transition: {
+        delay: 0.2,
+        duration: 0.6,
+      },
+    },
+    exit:{
+      opacity:0,
+      transition: {
+        ease: 'easeInOut'
+      },
+    }
+  }
+
   return (
-    <div className="container projects">
+    <motion.div className="container projects" variants={project_variant}
+    // holds current state
+    initial="hidden"
+    // holds future state
+    animate="visible"
+    exit="exit">
       
     <hr/>
     {/* nav bar for filtering projects matching their category */}
@@ -51,6 +76,6 @@ export default function Projects() {
           ))
         }
       </div> <hr/>
-    </div> 
+    </motion.div> 
   );
 }

@@ -5,6 +5,7 @@
   "dependencies": {
     "cra-template": "1.0.3",
     "emailjs-com": "^3.2.0",
+    "framer-motion": "^4.1.17",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.3.0",
