@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 
 /* https://uigradients.com/#NeonLife OR https://dionnenoellabarretto.github.io/RandomHexCodeColorGradientSelector/ */
-body {
+body , footer{
   background-image: linear-gradient(to right bottom, #69f09f, #3794f1);
   /* to prevent the body runover */
   background-attachment: fixed;
@@ -446,3 +446,4 @@ border-radius: 30px;
   }
 
 }
+

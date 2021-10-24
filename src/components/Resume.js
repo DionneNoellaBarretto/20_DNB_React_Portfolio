@@ -15,7 +15,7 @@ export default function Resume() {
             To download a copy of Dionne Noella Barretto's resume:
             <a
               href="https://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharing"
-              title="Click to download"
+              title="Click to download" rel="noopener noreferrer" target="_blank"
               className="text-uppercase"
             >
               click here
@@ -172,7 +172,7 @@ export default function Resume() {
                   className="row-lg-4 text-center justify-content-center"
                   href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Flive-from-vmworld-with-linus-bourque-principal-instructor-and-dionne-noella-barr%2F358103825126606%2F&width=200&show_text=false&height=125&appId"
                   title="Click to be redirected to a facebook video"
-                  rel="noopener"
+                  rel="noopener noreferrer" target="_blank"
                   role="tab"
                   aria-controls="pills-home"
                   aria-selected="true"
@@ -185,7 +185,7 @@ export default function Resume() {
                   className="row-lg-4 text-center justify-content-center"
                   href="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fvmwareeducation%2Fvideos%2Fbecoming-troubleshooting-superheroes-for-horizon-cloud%2F720625145042964%2F&width=200&show_text=false&height=125&appId"
                   title="Click to be redirected to a facebook video"
-                  rel="noopener"
+                  rel="noopener noreferrer" target="_blank"
                   role="tab"
                   aria-controls="pills-home"
                   aria-selected="true"
@@ -226,7 +226,7 @@ export default function Resume() {
                 ★
                 <strong>
                   <a
-                    href="https://www.xavier.ac.in/Alumni%20EXTC.php "
+                    href="https://www.xavier.ac.in/Alumni%20EXTC.php" rel="noopener noreferrer" target="_blank"
                     title="Click to go to an external university link"
                   >
                     Distinguished Alumni 

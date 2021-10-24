@@ -17,8 +17,6 @@ const NavBar = () => {
       setActive("Projects");
     } else if (currentURL.endsWith("/contact")) {
       setActive("Contact");
-    } else if (currentURL.endsWith("/")) {
-      setActive("Landing Page");
     }
   }, [active]);
 
@@ -41,16 +39,7 @@ const NavBar = () => {
             </div>
           </Link>
         )}
-        {active !== "Landing Page" && (
-          <Link to="/">
-            <div
-              className="navbar-menu-item"
-              onClick={() => setActive("Landing Page")}
-            >
-              Landing Page
-            </div>
-          </Link>
-        )}
+        
         {active !== "Projects" && (
           <Link to="/projects">
             <div

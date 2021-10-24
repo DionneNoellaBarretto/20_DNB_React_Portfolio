@@ -225,7 +225,7 @@ export default function Sidebar() {
           </a>
 
           <a
-            href="https://stackoverflow.com/users/dionne-noella-barretto"
+            href="https://stackoverflow.com/users/5882961/dionne-noella-barretto"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -276,7 +276,7 @@ export default function Sidebar() {
             />
           </a>
           <a
-            href="https://www.youtube.com/c/dionne noella barretto"
+            href="https://www.youtube.com/channel/UC3nwF9HcxNjvgrArnGewJ1w"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -329,7 +329,7 @@ export default function Sidebar() {
         </figure>
       </div>
       <hr />
-      <footer className="footer container text-center py-lg-5 py-md-5 py-4 py-sm-5">
+      <div className="footer container text-center py-lg-5 py-md-5 py-4 py-sm-5">
         &copy; Copyright 2021 <br />
         <a
           href="https://github.com/DionneNoellaBarretto"
@@ -338,7 +338,7 @@ export default function Sidebar() {
         >
           Dionne Noella Barretto
         </a>
-      </footer>
+      </div>
     </div>
   );
 }
