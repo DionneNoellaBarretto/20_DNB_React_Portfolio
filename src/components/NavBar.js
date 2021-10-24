@@ -78,6 +78,17 @@ const NavBar = () => {
           </Link>
         )}
 
+        {active !== "Landing" && (
+          <Link to="/">
+            <div
+              className="navbar-menu-item"
+              onClick={() => setActive("Landing Page")}
+            >
+              Landing Page
+            </div>
+          </Link>
+        )}
+
         {active !== "Resume" && (
           <Link to="/resume">
             <div
