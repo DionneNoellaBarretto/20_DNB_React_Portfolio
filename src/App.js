@@ -51,9 +51,9 @@ function App() {
                   <Contact />
                 </Route>
                 <Route>
-                  {/* for all other incorrect urls redirect user to landing page */}
+                  {/* for all other incorrect urls redirect user to about page */}
                   {/* https://reactrouter.com/web/api/Redirect */}
-                  <Redirect to="/" />
+                  <Redirect to="/about" />
                 </Route>
               </Switch>
             </AnimatePresence>
