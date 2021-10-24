@@ -29,7 +29,7 @@ const data_projects = [
     image: LandingPage,
  
     deployed_url:
-      "https://dnb-reactportfolio.herokuapp.com/",
+      "https://dnb-react-portfolio.netlify.app/",
     github_url:
       "https://github.com/DionneNoellaBarretto/20_DNB_React_Portfolio",
     // filtering logic

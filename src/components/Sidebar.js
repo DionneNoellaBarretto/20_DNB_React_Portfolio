@@ -356,7 +356,7 @@ export default function Sidebar() {
       <p> <a href="https://www.youtube.com/playlist?list=PLQKg8mIgoxKop9l92Zjd-Pmxkf-HQmclQ">Credits </a></p>
       &copy; Copyright 2021 <br />
         <a
-          href="https://dnb-reactportfolio.herokuapp.com/"
+          href="https://dionnenoellabarretto.github.io/"
           rel="noopener noreferrer"
           target="_blank"
         >
