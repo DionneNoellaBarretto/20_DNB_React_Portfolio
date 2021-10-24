@@ -25,7 +25,11 @@ export default function Sidebar() {
     <div className="sidebar">
       {/* <img src={dnb} alt="DNB Profile Pic" className="" /> */}
       {/* replacing my profile image with a dev card that has my profile picture */}
-      <a href="https://app.daily.dev/dnb">
+      <a
+        href="https://app.daily.dev/dnb"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           className="sidebar_Img"
           title="Click to view my DailyDev Profile"
@@ -34,22 +38,37 @@ export default function Sidebar() {
         />
       </a>
       <div>
-      
         <strong className="sidebar_name">
-        <span>D</span>ionne <span>N</span>oella <span> B</span>arretto
-        </strong><br /><a href="https://goo.gl/maps/giK32Dc7DojxcPs18">
+          <span>D</span>ionne <span>N</span>oella <span> B</span>arretto
+        </strong>
+        <br />
+        <a
+          href="https://goo.gl/maps/giK32Dc7DojxcPs18"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={pin} alt="Map Location" className="sidebar_location" />
-        Cary, NC </a>
-      </div> <br/> 
-      <div className="sidebar_title">
-        <strong> Senior Solutions Consultant </strong>
-        <a href="https://g.co/kgs/t8KRK8">
-          <img src={Gcloud} alt="Google Cloud Gif" className="sidebar_company" />
+          Cary, NC
         </a>
       </div>
-      <br/>
+      <br />
+      <div className="sidebar_title">
+        <strong> Senior Solutions Consultant </strong>
+        <a
+          href="https://g.co/kgs/t8KRK8"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={Gcloud}
+            alt="Google Cloud Gif"
+            className="sidebar_company"
+          />
+        </a>
+      </div>
+
       <hr />
-      <br/>
+
       <div className="sidebar_contact">
         <div className="sidebar_items">
           <a
@@ -78,7 +97,9 @@ export default function Sidebar() {
           </a>
           <a
             href="https://www.credly.com/users/dionne-noella-barretto/badges"
-            rel="noopener noreferrer" target="_blank">
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <img
               src={cert}
               alt="Certificate"
@@ -124,12 +145,12 @@ export default function Sidebar() {
             />
           </a>
         </div>
-        <br/>
+
         <hr />
         {/* <a href={resume imported file link} download="pdf name"> */}
         {/* https://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharinghttps://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharing */}
         {/* redirecting to the resume tab */}
-        <a href="/resume">
+        <a href="/resume" target="_blank" rel="noopener noreferrer">
           <div className="sidebar_resume">
             <img
               src={resume}
@@ -190,7 +211,11 @@ export default function Sidebar() {
               className="sidebar_icon"
             />
           </a>
-          <a href="https://edabit.com/user/v5xC75HeJryHqRSZb" target="blank">
+          <a
+            href="https://edabit.com/user/v5xC75HeJryHqRSZb"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               alt="Edabit logo"
               src="https://s3.amazonaws.com/edabit-images/monster003.png"
@@ -201,7 +226,8 @@ export default function Sidebar() {
 
           <a
             href="https://stackoverflow.com/users/dionne-noella-barretto"
-            target="blank"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               align="center"
@@ -211,7 +237,11 @@ export default function Sidebar() {
               className="sidebar_icon"
             />
           </a>
-          <a href="https://codepen.io/denverdionne" target="blank">
+          <a
+            href="https://codepen.io/denverdionne"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               align="center"
               src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg"
@@ -219,7 +249,11 @@ export default function Sidebar() {
               className="sidebar_icon"
             />
           </a>
-          <a href="https://dev.to/dionnenoellabarretto" target="blank">
+          <a
+            href="https://dev.to/dionnenoellabarretto"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               align="center"
               src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg"
@@ -228,7 +262,11 @@ export default function Sidebar() {
               className="sidebar_icon"
             />
           </a>
-          <a href="https://medium.com/@denverdionne" target="blank">
+          <a
+            href="https://medium.com/@denverdionne"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               align="center"
               src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg"
@@ -239,7 +277,8 @@ export default function Sidebar() {
           </a>
           <a
             href="https://www.youtube.com/c/dionne noella barretto"
-            target="blank"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               align="center"
@@ -249,7 +288,11 @@ export default function Sidebar() {
               className="sidebar_icon"
             />
           </a>
-          <a href="https://www.codechef.com/users/dinoba" target="blank">
+          <a
+            href="https://www.codechef.com/users/dinoba"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               align="center"
               src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg"
@@ -258,7 +301,11 @@ export default function Sidebar() {
               className="sidebar_icon"
             />
           </a>
-          <a href="https://www.hackerrank.com/denverdionne" target="blank">
+          <a
+            href="https://www.hackerrank.com/denverdionne"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               align="center"
               src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg"
@@ -267,7 +314,11 @@ export default function Sidebar() {
               className="sidebar_icon"
             />
           </a>
-          <a href="https://replit.com/@DionneNoellaBar" target="blank">
+          <a
+            href="https://replit.com/@DionneNoellaBar"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               className="sidebar_icon"
               alt="Repl.it logo"
@@ -278,7 +329,16 @@ export default function Sidebar() {
         </figure>
       </div>
       <hr />
-      
+      <footer className="footer container text-center py-lg-5 py-md-5 py-4 py-sm-5">
+        &copy; Copyright 2021 <br />
+        <a
+          href="https://github.com/DionneNoellaBarretto"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Dionne Noella Barretto
+        </a>
+      </footer>
     </div>
   );
 }

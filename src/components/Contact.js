@@ -93,7 +93,7 @@ const Contact = () => {
           <Button type="submit">Submit</Button>
         </Form> 
       </div> 
-  
+      <hr/>
         <div className="col-lg-6 text-center contactMe "> <br /><br /><br /><br />
           <div className="col-lg-11 sidebar_items">
             <h6> Schedule time with Dionne Noella Barretto </h6>

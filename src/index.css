@@ -7,7 +7,10 @@ body {
   /* to prevent the body runover */
   background-attachment: fixed;
   color: rgb(15, 15, 15);
+  /* default font for the site overwritting bootstraps font */
+  font-family: cursive; 
 }
+
 
 /* Sidebar Component Section */
 .sidebar {
@@ -45,7 +48,7 @@ body {
   border: 30px;
  
 }
-.sidebar_Img:hover {
+.sidebar_Img:hover, .projectCard_image:hover {
   transform: scale(1.1);
   border: 30px;
   transition: all 0.5s ease;
@@ -118,7 +121,7 @@ body {
   background-color: rgb(161, 159, 159);
   border-radius: 15px;
   font-family: cursive;
-  border: 1px solid #21f074;
+  border: 1px solid #0669cc;
   box-shadow: 0 0 15px rgb(15, 15, 15);
 }
 
@@ -307,7 +310,7 @@ h3.progress-tittle-w3 {
   border: 30px;
 }
 
-.resume_company:hover {
+.resume_company:hover{
   transform: scale(1.2);
   transition: all 0.5s ease;
 }
@@ -328,9 +331,12 @@ h3.progress-tittle-w3 {
 /* Projects section */
 
 .projects{
-  height: 115vh;
+  height: 145vh;
   padding-top:30px;
   overflow-y: auto;
+  box-shadow: 0 0 15px #0669cc;
+  border: 1px solid rgb(15, 15, 15);
+  border-radius: 15px;
 }
 
 .projectCard_wrapper{
@@ -347,6 +353,7 @@ height:80%;
 border-radius: 20px;
 border: 1px solid #21f074;
 box-shadow: 0 0 15px rgb(15, 15, 15);
+object-fit: cover;
 }
 
 .projectCard_icon{
@@ -360,6 +367,8 @@ box-shadow: 0 0 15px rgb(15, 15, 15);
   
   font-size: 1rem;
   display:flex;
+  /* https://css-tricks.com/almanac/properties/f/flex-wrap/ */
+  
   justify-content:center;
   align-items:center;
   background-clip: text;
@@ -368,3 +377,72 @@ box-shadow: 0 0 15px rgb(15, 15, 15);
   -webkit-text-fill-color: transparent;
 }
 
+.projects_filter{
+  display:flex;
+  flex-wrap: wrap;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content */
+  justify-content: center;  
+}
+
+.projects_filter>div{
+  margin: 4px 2px;
+  font-size:1rem;
+  cursor:pointer;
+  border:0.6px solid #26f378;
+  box-shadow: 0 0 15px rgb(15, 15, 15);
+  border-radius: 5px;
+  justify-content: space-between;
+  background-color: rgb(161, 159, 159);
+}
+
+.projects_navbar-active{
+  color: #0669cc;
+
+}
+
+.projects_filter>div:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+  background-clip: text;
+  background: -webkit-linear-gradient( #0669cc, #26f378);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.projects_filter>h6{
+  text-decoration:underline;
+  margin: 4px;
+  padding: 4px;
+  text-align: center;
+  background-clip: text;
+  background: -webkit-linear-gradient( #21f074, #127eeb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size:1.2rem;
+  align-items:center;
+}
+
+/* custom scrollbar formatting */
+::-webkit-scrollbar{
+width: 10px;
+border-radius: 30px;
+}
+::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(to right bottom, #0669cc, #26f378);
+  border-radius: 30px;
+}
+
+@media (max-width: 600px){
+  .mainComponent{
+    margin-left: 10px;
+    margin-right:10px;
+  }
+  .navbar_active{
+    font-size:1.8rem;
+  }
+
+  .navbar-menu-item{
+    font-size:1.3rem;
+  }
+
+}

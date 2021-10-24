@@ -13,7 +13,7 @@ export default function About() {
           I'm <em>D</em>ionne <em>N</em>oella <em>B</em>arretto a learning
           enthusiast and an aspiring <strong> Full Stack Web Developer </strong>
           , currently employed at
-          <a href="https://g.co/kgs/t8KRK8">
+          <a href="https://g.co/kgs/t8KRK8" target="_blank" rel="noopener noreferrer">
             <img
               title="Click to learn more about Google"
               className="about_company"
@@ -21,10 +21,10 @@ export default function About() {
               alt="Google Logo"
             />
           </a>
-          as a Senior Solutions Consultant <a href="https://careers.google.com/jobs/results/98457842215723718-technical-account-manager-google-cloud-professional-services/">(TAM) </a> in the Google Cloud division.
+          as a Senior Solutions Consultant <a href="https://careers.google.com/jobs/results/98457842215723718-technical-account-manager-google-cloud-professional-services/" target="_blank" rel="noopener noreferrer">(TAM) </a> in the Google Cloud division.
 
           Previously I was at
-          <a href="https://www.rubrik.com/">
+          <a href="https://www.rubrik.com/" target="_blank" rel="noopener noreferrer">
             <img
               title="Click to learn more about Rubrik"
               className="about_company"
@@ -37,7 +37,7 @@ export default function About() {
           domain & prior to that I was with
           <span title="For more information about VMware, click this link">
             <strong class="link">
-              <a href="https://www.vmware.com/">
+              <a href="https://www.vmware.com/" target="_blank" rel="noopener noreferrer">
               <img
               title="Click to learn more about VMware"
               className="about_company"

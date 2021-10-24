@@ -12,13 +12,13 @@ export default function Resume() {
       <div className="text-center download">
         <p>
           <em>
-            To download a copy of Dionne Noella Barretto's resume:  
+            To download a copy of Dionne Noella Barretto's resume:
             <a
               href="https://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharing"
               title="Click to download"
               className="text-uppercase"
             >
-               click here
+              click here
             </a>
           </em>
         </p>
@@ -107,15 +107,16 @@ export default function Resume() {
             <h4 className="text-center">Education</h4>
             <div className="col-lg-12 text-left">
               <h6>
-              🥇 <strong>Certificate: Coding Bootcamp</strong> <br /> May‘21 -
+                🥇 <strong>Certificate: Coding Bootcamp</strong> <br /> May‘21 -
                 Nov‘2021 | A+
                 <br />
                 <em>University of North Carolina(UNC)</em>
               </h6>
               <hr />
               <h6>
-              🎓 <strong> 
-                 Master of Science: Telecommunication and Network Management
+                🎓{" "}
+                <strong>
+                  Master of Science: Telecommunication and Network Management
                 </strong>
                 <br /> Aug ‘13 - May‘15 | 3.297/4
                 <br />
@@ -123,8 +124,9 @@ export default function Resume() {
               </h6>
               <hr />
               <h6>
-              🎓  <strong>
-                   Bachelor of Engineering: Electronics and Telecommunication
+                🎓{" "}
+                <strong>
+                  Bachelor of Engineering: Electronics and Telecommunication
                 </strong>
                 <br /> Jun ‘09 - May‘13 | 8/10
                 <br />
@@ -224,13 +226,13 @@ export default function Resume() {
                 ★
                 <strong>
                   <a
-                    href="https://www.xavier.ac.in/Alumni%20EXTC.php " 
+                    href="https://www.xavier.ac.in/Alumni%20EXTC.php "
                     title="Click to go to an external university link"
                   >
                     Distinguished Alumni 
-                  </a> 
+                  </a>
                 </strong>
-                 Xavier Institute of Engineering - MU | <em>Mar ‘14 </em>
+                 : Xavier Institute of Engineering - MU | <em>Mar ‘14 </em>
               </h6>
               <h6>
                 ★ <strong> First Female Sports Secretary </strong> Xavier
