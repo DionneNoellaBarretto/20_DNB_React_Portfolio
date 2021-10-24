@@ -66,7 +66,7 @@ export default function About() {
           the largest enterprise and strategic accounts in the data management
           domain & prior to that I was with
           <span title="For more information about VMware, click this link">
-            <strong class="link">
+            <strong className="link">
               <a href="https://www.vmware.com/" target="_blank" rel="noopener noreferrer">
               <img
               title="Click to learn more about VMware"

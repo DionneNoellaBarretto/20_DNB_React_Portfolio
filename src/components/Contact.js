@@ -91,7 +91,7 @@ const Contact = () => {
           <Form.Field
             id="form-input-control-email validationTooltip01"
             control={Input}
-            for="validationTooltip01"
+            // for="validationTooltip01"
             label ="Your Email"
             title="Your email ID will never be shared with anyone else"
             name="user_email"
@@ -105,7 +105,7 @@ const Contact = () => {
           <Form.Field
             id="form-input-control-last-name validationTooltip01"
             control={Input}
-            for="validationTooltip01"
+            // for="validationTooltip01"
             label="Your Name"
             name="user_name"
             placeholder="Your Name…"
@@ -119,7 +119,7 @@ const Contact = () => {
           <Form.Field
             id="form-textarea-control-opinion validationTooltip01"
             control={TextArea}
-            for="validationTooltip01"
+            // for="validationTooltip01"
             label="Your Message"
             name="user_message"
             placeholder="Your Message…"

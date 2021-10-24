@@ -24,7 +24,7 @@ const NavBar = () => {
 
   const navbar_variant = {
     hidden: {
-      y: "-20h",
+      y: "-20vh",
       opacity: 0,
     },
     visible: {

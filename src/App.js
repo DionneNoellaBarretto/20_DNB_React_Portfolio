@@ -52,6 +52,7 @@ function App() {
                 </Route>
                 <Route>
                   {/* for all other incorrect urls redirect user to landing page */}
+                  {/* https://reactrouter.com/web/api/Redirect */}
                   <Redirect to="/" />
                 </Route>
               </Switch>
