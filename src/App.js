@@ -53,7 +53,7 @@ function App() {
                 <Route>
                   {/* for all other incorrect urls redirect user to about page */}
                   {/* https://reactrouter.com/web/api/Redirect */}
-                  <Redirect to="/about" />
+                  <Redirect to="/index.html" />
                 </Route>
               </Switch>
             </AnimatePresence>

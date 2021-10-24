@@ -8,11 +8,15 @@ Task is to create a portfolio deployed in Github Pages [Instructions: Create Rea
 --------------------------------
 # DNB's SOLUTION: 
 
+## Technologies Used
+HTML, CSS (Bootstrap), JavaScript, React (frontend framework), External Libraries: Framer Motion (animation), React Router (routing), GithubPages
+
+
 ## UNC Boot Camp Submission: 
 
 🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/20_DNB_React_Portfolio/settings/pages) | 📄[Readme Page](https://dionnenoellabarretto.github.io/20_DNB_React_Portfolio/) 
 
-📑[Deployed Netlify Page](https://dnb-react-portfolio.netlify.app/) | [![Netlify Status](https://api.netlify.com/api/v1/badges/f1fdc1a4-6a80-4a55-8a6a-672f2e72892f/deploy-status)](https://app.netlify.com/sites/dnb-react-portfolio/deploys)
+📑[Deployed Netlify Page](https://dnb-react-portfolio.netlify.app/index.html) | [![Netlify Status](https://api.netlify.com/api/v1/badges/d730d6c5-3b84-407e-a5f3-604ca00caa67/deploy-status)](https://app.netlify.com/sites/dnb-react-portfolio/deploys)
 
 [WireFrame - Layout](https://drive.google.com/file/d/1NIMF139VHox3gRsoGtBnzCC6UeaWHBsV/view?usp=sharing)
 
@@ -47,22 +51,27 @@ GIVEN a single-page application portfolio for a web developer
 ### Mockup - Desktop, Tablet & Mobile Views
 The following images show the web application's appearance and functionality:
 
-Landing Page (Desktop) hosted on github: <br>
+Landing Page (Desktop View) hosted on github: <br>
 <img src="./src/assets/icons/LandingPage.png"> <br>
 About/Skills Page: <br>
 <img src="./src/assets/icons/AboutSkillsPage.png"> <br>
-Projects Page: <br>
+Projects Page with project filtering based on category tags: <br>
 <img src="./src/assets/icons/ProjectsPage.png"> <br>
-Resume Page: <br>
+Resume Page mini preview of what can be downloaded : <br>
 <img src="./src/assets/icons/ResumePage.png"> <br>
-Contact Page: <br>
+Contact Page to connect with me (functional email.js integration): <br>
 <img src="./src/assets/icons/ContactPage.png"> <br>
+Contact Form Basic validation prior to hitting submit: <br>
+<img src="./src/assets/icons/ContactValidation.png"> <br>
+Contact Form submission sender visual acknowledgment: <br>
+<img src="./src/assets/icons/ContactFormAcknowledgement.png"> <br>
 Tablet/Mobile View: <br>
 <img src="./src/assets/icons/MobileView.png">
 <img src="./src/assets/icons/TabletView.png"> <br>
-
-## Technologies Used
-HTML, CSS (Bootstrap), JavaScript, React (frontend framework), External Libraries: Framer Motion (animation), React Router (routing), GithubPages
+Redirect Logic: <br>
+<img src="./src/assets/icons/redirect.png"> <br>
+NoErrors: <br>
+<img src="./src/assets/icons/NoErrorsLandingPage.png"> <br>
 
 
 ## Grading Requirements
