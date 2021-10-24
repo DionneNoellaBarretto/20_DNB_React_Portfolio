@@ -16,7 +16,7 @@ HTML, CSS (Bootstrap), JavaScript, React (frontend framework), External Librarie
 
 🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/20_DNB_React_Portfolio/settings/pages) | 📄[Readme Page](https://dionnenoellabarretto.github.io/20_DNB_React_Portfolio/) 
 
-📑[Deployed Netlify Page](https://dnb-react-portfolio.netlify.app/index.html) | [![Netlify Status](https://api.netlify.com/api/v1/badges/d730d6c5-3b84-407e-a5f3-604ca00caa67/deploy-status)](https://app.netlify.com/sites/dnb-react-portfolio/deploys)
+📑[Deployed Netlify Page](https://dnb-react-portfolio.netlify.app/index.html) | [![Netlify Status](https://api.netlify.com/api/v1/badges/148d44cf-406f-4bba-9142-4099ff7e70be/deploy-status)](https://app.netlify.com/sites/vibrant-boyd-419885/deploys)
 
 [WireFrame - Layout](https://drive.google.com/file/d/1NIMF139VHox3gRsoGtBnzCC6UeaWHBsV/view?usp=sharing)
 
