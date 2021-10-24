@@ -48,7 +48,7 @@ export default function Resume() {
           <em>
             To download a copy of Dionne Noella Barretto's resume:
             <a
-              href="https://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharing"
+              href="https://drive.google.com/file/d/1YmvFpFdlUxkXB3loRPPaRjkaRDbZ2qiz/view?usp=sharing"
               title="Click to download"
               rel="noopener noreferrer"
               target="_blank"

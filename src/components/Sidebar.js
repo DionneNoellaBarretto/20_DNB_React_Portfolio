@@ -171,7 +171,7 @@ export default function Sidebar() {
 
         <hr />
         {/* <a href={resume imported file link} download="pdf name"> */}
-        {/* https://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharinghttps://drive.google.com/file/d/17KEqXhudMuyKM6Xm4_3pMYCVjJFE-MiV/view?usp=sharing */}
+        {/* https://drive.google.com/file/d/1YmvFpFdlUxkXB3loRPPaRjkaRDbZ2qiz/view?usp=sharing */}
         {/* redirecting to the resume tab */}
         <a href="/resume" target="_blank" rel="noopener noreferrer">
           <div className="sidebar_resume">
