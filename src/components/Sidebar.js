@@ -353,7 +353,8 @@ export default function Sidebar() {
       </div>
       <hr />
       <div className="footer container text-center py-lg-5 py-md-5 py-4 py-sm-5">
-        &copy; Copyright 2021 <br />
+      <p> <a href="https://www.youtube.com/playlist?list=PLQKg8mIgoxKop9l92Zjd-Pmxkf-HQmclQ">Credits </a></p>
+      &copy; Copyright 2021 <br />
         <a
           href="https://github.com/DionneNoellaBarretto"
           rel="noopener noreferrer"
@@ -361,6 +362,7 @@ export default function Sidebar() {
         >
           Dionne Noella Barretto
         </a>
+        
       </div>
     </motion.div>
   );
