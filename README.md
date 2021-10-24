@@ -5,6 +5,14 @@
 Task is to create a portfolio deployed in Github Pages [Instructions: Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) using React frontend framework, which will help set my portfolio apart from other developers whose portfolios don’t use the latest technologies! 
 
 
+--------------------------------
+# DNB's SOLUTION: 
+UNC Boot Camp Submission: 🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/Updated_Portfolio_Page) | 📄[Github Page](https://dionnenoellabarretto.github.io/Updated_Portfolio_Page/)
+
+[WireFrame - Layout](https://drive.google.com/file/d/1NIMF139VHox3gRsoGtBnzCC6UeaWHBsV/view?usp=sharing)
+
+--------------------------------
+
 ## User Story
 
 ```
@@ -31,13 +39,22 @@ GIVEN a single-page application portfolio for a web developer
 ✓ WHEN I view the footer THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 
-## Mock-Up
+### Mockup - Desktop, Tablet & Mobile Views
+The following images show the web application's appearance and functionality:
 
-The following animation shows the web application's appearance and functionality:
-
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./src/assets/20-react-homework-demo-01.gif)
-
-[WireFrame - Layout](https://drive.google.com/file/d/1NIMF139VHox3gRsoGtBnzCC6UeaWHBsV/view?usp=sharing)
+Landing Page (Desktop) hosted on github: <br>
+<img src="./src/assets/icons/LandingPage.png"> <br>
+About/Skills Page: <br>
+<img src="./src/assets/icons/AboutSkillsPage.png"> <br>
+Projects Page: <br>
+<img src="./src/assets/icons/ProjectsPage.png"> <br>
+Resume Page: <br>
+<img src="./src/assets/icons/ResumePage.png"> <br>
+Contact Page: <br>
+<img src="./src/assets/icons/ContactPage.png"> <br>
+Tablet/Mobile View: <br>
+<img src="./src/assets/icons/MobileView.png">
+<img src="./src/assets/icons/TabletView.png"> <br>
 
 ## Technologies Used
 HTML, CSS (Bootstrap), JavaScript, React (frontend framework), External Libraries: Framer Motion (animation), React Router (routing), GithubPages

@@ -52,7 +52,7 @@ function App() {
                 </Route>
                 <Route>
                   {/* for all other incorrect urls redirect user to landing page */}
-                  <Redirect to="https://dionnenoellabarretto.github.io/" />
+                  <Redirect to="/" />
                 </Route>
               </Switch>
             </AnimatePresence>
