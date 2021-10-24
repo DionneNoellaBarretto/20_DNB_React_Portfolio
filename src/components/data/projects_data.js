@@ -27,9 +27,9 @@ const data_projects = [
   {
     name: "React Portfolio",
     image: LandingPage,
-    // this needs to be changed
+ 
     deployed_url:
-      "https://github.com/DionneNoellaBarretto/20_DNB_React_Portfolio",
+      "https://dnb-reactportfolio.herokuapp.com/",
     github_url:
       "https://github.com/DionneNoellaBarretto/20_DNB_React_Portfolio",
     // filtering logic

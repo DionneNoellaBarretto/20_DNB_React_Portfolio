@@ -8,7 +8,7 @@ Task is to create a portfolio deployed in Github Pages [Instructions: Create Rea
 --------------------------------
 # DNB's SOLUTION: 
 UNC Boot Camp Submission: 
-🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/20_DNB_React_Portfolio/settings/pages) | 📄[Readme Page](https://dionnenoellabarretto.github.io/20_DNB_React_Portfolio/) | 📑[Heroku Git Repository]() | 🌐[Deployed Page]()
+🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/20_DNB_React_Portfolio/settings/pages) | 📄[Readme Page](https://dionnenoellabarretto.github.io/20_DNB_React_Portfolio/) | 📑[Heroku Git Repository](https://git.heroku.com/dnb-reactportfolio.git) | 🌐[Deployed Page](https://dnb-reactportfolio.herokuapp.com/)
 
 [WireFrame - Layout](https://drive.google.com/file/d/1NIMF139VHox3gRsoGtBnzCC6UeaWHBsV/view?usp=sharing)
 
