@@ -16,7 +16,7 @@ ReactDOM.render(
 // Detecting legacy context API
 
   <React.StrictMode>
-  <Router basename="/20_DNB_React_Portfolio">
+  <Router>
     <App />
   </Router>
   </React.StrictMode>,
