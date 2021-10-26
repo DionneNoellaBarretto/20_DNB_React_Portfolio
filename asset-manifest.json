@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/20_DNB_React_Portfolio/static/css/main.7a8c66e8.chunk.css",
+    "main.css": "/20_DNB_React_Portfolio/static/css/main.ce2389b6.chunk.css",
     "main.js": "/20_DNB_React_Portfolio/static/js/main.2f37ce7e.chunk.js",
     "main.js.map": "/20_DNB_React_Portfolio/static/js/main.2f37ce7e.chunk.js.map",
     "runtime-main.js": "/20_DNB_React_Portfolio/static/js/runtime-main.2e67b1bc.js",
@@ -8,9 +8,9 @@
     "static/js/2.eb672f68.chunk.js": "/20_DNB_React_Portfolio/static/js/2.eb672f68.chunk.js",
     "static/js/2.eb672f68.chunk.js.map": "/20_DNB_React_Portfolio/static/js/2.eb672f68.chunk.js.map",
     "index.html": "/20_DNB_React_Portfolio/index.html",
-    "precache-manifest.b9829d88403fe005c4f0402d201b99bb.js": "/20_DNB_React_Portfolio/precache-manifest.b9829d88403fe005c4f0402d201b99bb.js",
+    "precache-manifest.41dd3c4c1aa82fa66278fcb760b590f7.js": "/20_DNB_React_Portfolio/precache-manifest.41dd3c4c1aa82fa66278fcb760b590f7.js",
     "service-worker.js": "/20_DNB_React_Portfolio/service-worker.js",
-    "static/css/main.7a8c66e8.chunk.css.map": "/20_DNB_React_Portfolio/static/css/main.7a8c66e8.chunk.css.map",
+    "static/css/main.ce2389b6.chunk.css.map": "/20_DNB_React_Portfolio/static/css/main.ce2389b6.chunk.css.map",
     "static/js/2.eb672f68.chunk.js.LICENSE.txt": "/20_DNB_React_Portfolio/static/js/2.eb672f68.chunk.js.LICENSE.txt",
     "static/media/Airwatch.png": "/20_DNB_React_Portfolio/static/media/Airwatch.2cbbab1c.png",
     "static/media/CSSPortfolio.png": "/20_DNB_React_Portfolio/static/media/CSSPortfolio.247e0263.png",
@@ -51,7 +51,7 @@
   "entrypoints": [
     "static/js/runtime-main.2e67b1bc.js",
     "static/js/2.eb672f68.chunk.js",
-    "static/css/main.7a8c66e8.chunk.css",
+    "static/css/main.ce2389b6.chunk.css",
     "static/js/main.2f37ce7e.chunk.js"
   ]
 }
