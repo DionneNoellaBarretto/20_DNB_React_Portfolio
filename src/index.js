@@ -23,3 +23,18 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+
+// // https://javascript.plainenglish.io/everything-new-in-react-18-db459c2608de
+// const container =document.getElementById("root");
+// // Create a root.
+// // const root = ReactDOM.unstable_createRoot(container); 
+// //OR 
+// const root = ReactDOM.createRoot(container);
+// //provides this error: TypeError: react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.unstable_createRoot is not a function 
+
+// // Initial render
+// root.render(<React.StrictMode>
+//   <Router>
+//     <App />
+//   </Router>
+//   </React.StrictMode>);

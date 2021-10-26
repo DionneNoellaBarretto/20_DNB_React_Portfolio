@@ -57,8 +57,10 @@ export default function Resume() {
               click here
             </a>
           </em>
-        </p>
-      </div> <br/>
+        </p> <hr/>
+      </div> 
+
+      
       <h6>
         <em className="summary">
           A self-driven, motivated, aspiring Full Stack Web Developer who is not
