@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/20_DNB_React_Portfolio/static/css/main.7473ea9c.chunk.css",
-    "main.js": "/20_DNB_React_Portfolio/static/js/main.62e4ae82.chunk.js",
-    "main.js.map": "/20_DNB_React_Portfolio/static/js/main.62e4ae82.chunk.js.map",
+    "main.js": "/20_DNB_React_Portfolio/static/js/main.652d637b.chunk.js",
+    "main.js.map": "/20_DNB_React_Portfolio/static/js/main.652d637b.chunk.js.map",
     "runtime-main.js": "/20_DNB_React_Portfolio/static/js/runtime-main.2e67b1bc.js",
     "runtime-main.js.map": "/20_DNB_React_Portfolio/static/js/runtime-main.2e67b1bc.js.map",
-    "static/js/2.6577c6dc.chunk.js": "/20_DNB_React_Portfolio/static/js/2.6577c6dc.chunk.js",
-    "static/js/2.6577c6dc.chunk.js.map": "/20_DNB_React_Portfolio/static/js/2.6577c6dc.chunk.js.map",
+    "static/js/2.eb672f68.chunk.js": "/20_DNB_React_Portfolio/static/js/2.eb672f68.chunk.js",
+    "static/js/2.eb672f68.chunk.js.map": "/20_DNB_React_Portfolio/static/js/2.eb672f68.chunk.js.map",
     "index.html": "/20_DNB_React_Portfolio/index.html",
-    "precache-manifest.1040f73c1570a77833617c655b81b8fc.js": "/20_DNB_React_Portfolio/precache-manifest.1040f73c1570a77833617c655b81b8fc.js",
+    "precache-manifest.2a61ffdb86314517413b2b7741c03340.js": "/20_DNB_React_Portfolio/precache-manifest.2a61ffdb86314517413b2b7741c03340.js",
     "service-worker.js": "/20_DNB_React_Portfolio/service-worker.js",
     "static/css/main.7473ea9c.chunk.css.map": "/20_DNB_React_Portfolio/static/css/main.7473ea9c.chunk.css.map",
-    "static/js/2.6577c6dc.chunk.js.LICENSE.txt": "/20_DNB_React_Portfolio/static/js/2.6577c6dc.chunk.js.LICENSE.txt",
+    "static/js/2.eb672f68.chunk.js.LICENSE.txt": "/20_DNB_React_Portfolio/static/js/2.eb672f68.chunk.js.LICENSE.txt",
     "static/media/Airwatch.png": "/20_DNB_React_Portfolio/static/media/Airwatch.2cbbab1c.png",
     "static/media/CSSPortfolio.png": "/20_DNB_React_Portfolio/static/media/CSSPortfolio.247e0263.png",
     "static/media/CodeQuiz.png": "/20_DNB_React_Portfolio/static/media/CodeQuiz.30dbf1c1.png",
@@ -50,8 +50,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2e67b1bc.js",
-    "static/js/2.6577c6dc.chunk.js",
+    "static/js/2.eb672f68.chunk.js",
     "static/css/main.7473ea9c.chunk.css",
-    "static/js/main.62e4ae82.chunk.js"
+    "static/js/main.652d637b.chunk.js"
   ]
 }
