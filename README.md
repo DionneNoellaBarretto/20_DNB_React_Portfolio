@@ -14,9 +14,9 @@ HTML, CSS (Bootstrap), JavaScript, React (frontend framework), External Librarie
 
 ## UNC Boot Camp Submission: 
 
-🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/20_DNB_React_Portfolio/settings/pages) | 📄[Readme Page](https://dionnenoellabarretto.github.io/20_DNB_React_Portfolio/) 
+🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/20_DNB_React_Portfolio/settings/pages) | 
 
-📑[Deployed Netlify Page](https://dnb-react-portfolio.netlify.app/index.html) | [![Netlify Status](https://api.netlify.com/api/v1/badges/d2834f51-f8da-433d-8c69-68a398f52adf/deploy-status)](https://app.netlify.com/sites/elated-wozniak-9c8eff/deploys)
+📑[Deployed GitHub Page ](https://dionnenoellabarretto.github.io/20_DNB_React_Portfolio/) 
 
 [WireFrame - Layout](https://drive.google.com/file/d/1NIMF139VHox3gRsoGtBnzCC6UeaWHBsV/view?usp=sharing)
 
