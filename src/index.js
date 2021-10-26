@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import {BrowserRouter as Router} from 'react-router-dom';
+import {HashRouter as Router} from 'react-router-dom';
 
 ReactDOM.render(
   // https://reactjs.org/docs/strict-mode.html#warning-about-deprecated-finddomnode-usage
@@ -16,7 +16,7 @@ ReactDOM.render(
 // Detecting legacy context API
 
   <React.StrictMode>
-  <Router>
+  <Router basename="/20_DNB_React_Portfolio">
     <App />
   </Router>
   </React.StrictMode>,
