@@ -294,7 +294,7 @@ h3.progress-tittle-w3 {
 /* Resume Sections */
 
 .resume_row, .experience, .recognition{
-  height: 135vh;
+  height: 145vh;
   background-color: rgb(197, 194, 194);
   border-radius: 10px;
   box-shadow: 0 0 15px rgb(15, 15, 15);
