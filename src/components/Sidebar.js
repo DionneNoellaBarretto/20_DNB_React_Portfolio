@@ -173,7 +173,7 @@ export default function Sidebar() {
         {/* <a href={resume imported file link} download="pdf name"> */}
         {/* https://drive.google.com/file/d/1YmvFpFdlUxkXB3loRPPaRjkaRDbZ2qiz/view?usp=sharing */}
         {/* redirecting to the resume tab */}
-        <a href="/resume" target="_blank" rel="noopener noreferrer">
+        <a href="/20_DNB_React_Portfolio/#/resume" target="_blank" rel="noopener noreferrer">
           <div className="sidebar_resume">
             <img
               src={resume}
