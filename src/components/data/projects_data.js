@@ -1,25 +1,25 @@
-import Feedster from "../../assets/icons/Feedster.png";
-import ECommerceBackendApp from "../../assets/icons/ECommerceBackendApp.gif";
-import EmployeeContentManagementSystem from "../../assets/icons/EmployeeContentManagementSystem.gif";
-import TeamProfileGenerator from "../../assets/icons/TeamProfileGenerator.gif";
-import Professional_README from "../../assets/icons/Professional_README.gif";
-import HexColorExample from "../../assets/icons/HexColorExample.png";
-import ImFeelingApp from "../../assets/icons/ImFeelingApp.png";
-import WorkDayScheduler from "../../assets/icons/WorkDayScheduler.png";
-import CodeQuiz from "../../assets/icons/CodeQuiz.png";
-import NoteTaker from "../../assets/icons/NoteTaker.png";
-import ProfileIDCard from "../../assets/icons/ProfileIDCard.png";
-import SimpleInterestCalculator from "../../assets/icons/SimpleInterestCalculator.png";
-import TributePage from "../../assets/icons/TributePage.png";
-import WeatherDashboard from "../../assets/icons/WeatherDashboard.png";
-import PasswordGenerator from "../../assets/icons/PasswordGenerator.png";
-import FitnessTracker from "../../assets/icons/FitnessTracker.png";
-import RegexGist from "../../assets/icons/RegexGist.png";
+import Feedster from "assets/icons/Feedster.png";
+import ECommerceBackendApp from "assets/icons/ECommerceBackendApp.gif";
+import EmployeeContentManagementSystem from "assets/icons/EmployeeContentManagementSystem.gif";
+import TeamProfileGenerator from "assets/icons/TeamProfileGenerator.gif";
+import Professional_README from "assets/icons/Professional_README.gif";
+import HexColorExample from "assets/icons/HexColorExample.png";
+import ImFeelingApp from "assets/icons/ImFeelingApp.png";
+import WorkDayScheduler from "assets/icons/WorkDayScheduler.png";
+import CodeQuiz from "assets/icons/CodeQuiz.png";
+import NoteTaker from "assets/icons/NoteTaker.png";
+import ProfileIDCard from "assets/icons/ProfileIDCard.png";
+import SimpleInterestCalculator from "assets/icons/SimpleInterestCalculator.png";
+import TributePage from "assets/icons/TributePage.png";
+import WeatherDashboard from "assets/icons/WeatherDashboard.png";
+import PasswordGenerator from "assets/icons/PasswordGenerator.png";
+import FitnessTracker from "assets/icons/FitnessTracker.png";
+import RegexGist from "assets/icons/RegexGist.png";
 
-import UpdatedPortfolio from "../../assets/icons/UpdatedPortfolio.png";
-import DevelopersLifeInGifs from "../../assets/icons/UpdatedPortfolio.png";
-import CSSPortfolio from "../../assets/icons/CSSPortfolio.png";
-import LandingPage from "../../assets/icons/LandingPage.png";
+import UpdatedPortfolio from "assets/icons/UpdatedPortfolio.png";
+import DevelopersLifeInGifs from "assets/icons/UpdatedPortfolio.png";
+import CSSPortfolio from "assets/icons/CSSPortfolio.png";
+import LandingPage from "assets/icons/LandingPage.png";
 // reference: https://www.youtube.com/watch?v=rVaqJCYcr8E&list=PLQKg8mIgoxKop9l92Zjd-Pmxkf-HQmclQ&index=8
 
 // array of project specifics grouped as objects

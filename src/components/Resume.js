@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React from "react";
-import Google from "../assets/Google.gif";
-import Rubrik from "../assets/icons/Rubrik.png";
-import vmware from "../assets/icons/vmware.jpg";
-import Airwatch from "../assets/icons/Airwatch.png";
-import vmwareAirwatch from "../assets/icons/vmwareAirwatch.png";
+import Google from "assets/Google.gif";
+import Rubrik from "assets/icons/Rubrik.png";
+import vmware from "assets/icons/vmware.jpg";
+import Airwatch from "assets/icons/Airwatch.png";
+import vmwareAirwatch from "assets/icons/vmwareAirwatch.png";
 import { motion } from "framer-motion";
 export default function Resume() {
   const pe_variant = {

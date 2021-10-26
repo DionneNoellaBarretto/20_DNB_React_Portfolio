@@ -2,12 +2,12 @@ import React from "react";
 import emailjs from "emailjs-com";
 import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import Swal from "sweetalert2";
-import cal from "../assets/icons/cal.png";
-import Google_Voice_icon from "../assets/icons/Google_Voice_icon.png";
-import mail from "../assets/icons/mail.png";
+import cal from "assets/icons/cal.png";
+import Google_Voice_icon from "assets/icons/Google_Voice_icon.png";
+import mail from "assets/icons/mail.png";
 import { motion } from "framer-motion";
 // as seen in https://getbootstrap.com/docs/4.1/components/forms/ &  https://javascript.plainenglish.io/how-to-build-a-contact-form-in-react-that-sends-emails-using-emailjs-70011d2563a3
-import "../index.css";
+import "index.css";
 
 const SERVICE_ID = "service_xbpztyp";
 const TEMPLATE_ID = "template_ozmrovn";

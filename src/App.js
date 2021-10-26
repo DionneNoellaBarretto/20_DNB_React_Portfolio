@@ -1,11 +1,11 @@
 import React from "react";
-import Sidebar from "./components/Sidebar";
-import NavBar from "./components/NavBar";
+import Sidebar from "components/Sidebar";
+import NavBar from "components/NavBar";
 import { Route, Redirect, Switch,useLocation } from "react-router-dom";
-import About from "./components/About";
-import Resume from "./components/Resume";
-import Contact from "./components/Contact";
-import Projects from "./components/Projects";
+import About from "components/About";
+import Resume from "components/Resume";
+import Contact from "components/Contact";
+import Projects from "components/Projects";
 // https://www.framer.com/docs/animate-presence/ for fade in/ fade out effect on the about / projects page
 import { AnimatePresence } from "framer-motion";
 

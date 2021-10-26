@@ -1,7 +1,7 @@
 import React from "react";
-import Google from "../assets/Google.gif";
-import Rubrik from "../assets/icons/Rubrik.png";
-import vmware from "../assets/icons/vmware.jpg";
+import Google from "assets/Google.gif";
+import Rubrik from "assets/icons/Rubrik.png";
+import vmware from "assets/icons/vmware.jpg";
 import { motion } from "framer-motion";
 
 export default function About() {

@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import data_projects from "./data/projects_data";
-import ProjectCard from "../components/ProjectCard";
+import data_projects from "data/projects_data";
+import ProjectCard from "components/ProjectCard";
 import { motion } from "framer-motion";
 export default function Projects() {
 

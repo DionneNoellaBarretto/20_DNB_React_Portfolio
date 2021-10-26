@@ -1,19 +1,19 @@
 import React from "react";
 // importing each image component
-// import dnb from "../assets/dnb.jpg";
-import Gcloud from "../assets/icons/Gcloud.gif";
-import cert from "../assets/icons/cert.png";
-import pin from "../assets/icons/pin.png";
-import github from "../assets/icons/github.png";
-import linkedin from "../assets/icons/linkedin.png";
-import qwiklabs from "../assets/icons/qwiklabs.png";
-import fcc from "../assets/icons/fcc.png";
-import codecademy from "../assets/icons/codecademy.svg";
-import leetcode from "../assets/icons/leetcode.png";
-import resume from "../assets/icons/resume.png";
-import cal from "../assets/icons/cal.png";
-import Google_Voice_icon from "../assets/icons/Google_Voice_icon.png";
-import mail from "../assets/icons/mail.png";
+// import dnb from "assets/dnb.jpg";
+import Gcloud from "assets/icons/Gcloud.gif";
+import cert from "assets/icons/cert.png";
+import pin from "assets/icons/pin.png";
+import github from "assets/icons/github.png";
+import linkedin from "assets/icons/linkedin.png";
+import qwiklabs from "assets/icons/qwiklabs.png";
+import fcc from "assets/icons/fcc.png";
+import codecademy from "assets/icons/codecademy.svg";
+import leetcode from "assets/icons/leetcode.png";
+import resume from "assets/icons/resume.png";
+import cal from "assets/icons/cal.png";
+import Google_Voice_icon from "assets/icons/Google_Voice_icon.png";
+import mail from "assets/icons/mail.png";
 import { motion } from "framer-motion";
 
 export default function Sidebar() {

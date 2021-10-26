@@ -1,5 +1,5 @@
 import React from 'react';
-import github from "../assets/icons/github.png";
+import github from "assets/icons/github.png";
 
 export default function ProjectCard({projects:{name,image,deployed_url,github_url}}) {
     return (
