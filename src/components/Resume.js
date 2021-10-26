@@ -58,7 +58,7 @@ export default function Resume() {
             </a>
           </em>
         </p>
-      </div>
+      </div> <br/>
       <h6>
         <em className="summary">
           A self-driven, motivated, aspiring Full Stack Web Developer who is not
@@ -67,6 +67,7 @@ export default function Resume() {
           Application Virtualization & Customer Engagement + Advocacy !
         </em>
       </h6>
+      <hr/>
       <div className="container">
         <div className="row resume_row">
           <br />
@@ -80,7 +81,7 @@ export default function Resume() {
             exit="exit"
           >
             <h4 className="text-center">Professional Experience</h4>
-
+            <br />
             <div className="col-lg-12 text-center">
               <h6>
                 <img
@@ -158,7 +159,7 @@ export default function Resume() {
               </h6>
               <hr />
               <h6>
-                🎓{" "}
+                🎓
                 <strong>
                   Master of Science: Telecommunication and Network Management
                 </strong>
@@ -168,7 +169,7 @@ export default function Resume() {
               </h6>
               <hr />
               <h6>
-                🎓{" "}
+                🎓
                 <strong>
                   Bachelor of Engineering: Electronics and Telecommunication
                 </strong>
