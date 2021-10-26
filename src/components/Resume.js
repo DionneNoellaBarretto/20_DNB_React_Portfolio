@@ -54,14 +54,13 @@ export default function Resume() {
               target="_blank"
               className="text-uppercase"
             >
-              click here
+               click here
             </a>
           </em>
-        </p> <hr/>
+        </p> 
       </div> 
 
-      
-      <h6>
+      <h6> <hr/>
         <em className="summary">
           A self-driven, motivated, aspiring Full Stack Web Developer who is not
           only a Team Player but also an Organizational Leader and an “Achiever”

@@ -26,7 +26,7 @@ ReactDOM.render(
 
 // // https://javascript.plainenglish.io/everything-new-in-react-18-db459c2608de
 // const container =document.getElementById("root");
-// // Create a root.
+// // Create a root. https://reactjs.org/docs/concurrent-mode-adoption.html 
 // // const root = ReactDOM.unstable_createRoot(container); 
 // //OR 
 // const root = ReactDOM.createRoot(container);
