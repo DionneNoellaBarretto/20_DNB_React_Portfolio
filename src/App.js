@@ -31,15 +31,15 @@ function App() {
               <Switch location={location} key={location.key}>
                 {/* need to use exact path else the react would render elements from / page and /about page */}
                 {/* External Landing Page redirect https://stackoverflow.com/questions/42914666/react-router-external-link */}
-                <Route
-                  exact
-                  path="/"
-                  component={() => {
-                    window.location.href =
-                      "https://dionnenoellabarretto.github.io/";
-                    return null;
-                  }}
-                />
+                {/* <Route
+                  // exact
+                  // path="/"
+                  // component={() => {
+                  //   window.location.href =
+                  //     "https://dionnenoellabarretto.github.io";
+                  //   return null;
+                  // }}
+                /> */}
                 <Route exact path="/about">
                   <About />
                 </Route>
