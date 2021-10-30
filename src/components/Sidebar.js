@@ -361,7 +361,9 @@ export default function Sidebar() {
           target="_blank"
         >
           Dionne Noella Barretto
+          
         </a>
+
         
       </div>
     </motion.div>
