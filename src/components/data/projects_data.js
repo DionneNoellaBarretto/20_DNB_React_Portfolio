@@ -52,7 +52,7 @@ const data_projects = [
   },
 
   {
-    name: "Feedster - Project #2",
+    name: "Feedster-Project#2",
     image: Feedster,
     deployed_url: "https://feedster-twitter-feed.herokuapp.com/",
     github_url: "https://github.com/DionneNoellaBarretto/Feedster",
@@ -78,7 +78,7 @@ const data_projects = [
   },
 
   {
-    name: "Regex Tutorial - Gist",
+    name: "Regex Tutorial-Gist",
     image: RegexGist,
     deployed_url: "https://sumit-chat.netlify.app/",
     github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
@@ -86,7 +86,7 @@ const data_projects = [
   },
 
   {
-    name: "ECommerce Backend App",
+    name: "eCommerceBackend App",
     image: ECommerceBackendApp,
     github_url:
       "https://github.com/DionneNoellaBarretto/13-ObjectRelationalMapping-eCommerceBackEnd_usingExpress.jsMySQLAndSequelize/blob/main/package.json",
@@ -165,7 +165,7 @@ const data_projects = [
     category: ["fullstack", "html", "css", "express.js", "node.js", "heroku"],
   },
   {
-    name: "Feeling App - Project #1",
+    name: "FeelingApp-Project#1",
     image: ImFeelingApp,
     deployed_url: "https://lbladma.github.io/Project1-Interactive-Web-APP/",
     github_url:
