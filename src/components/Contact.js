@@ -8,15 +8,24 @@ import mail from "assets/icons/mail.png";
 import { motion } from "framer-motion";
 // as seen in https://getbootstrap.com/docs/4.1/components/forms/ &  https://javascript.plainenglish.io/how-to-build-a-contact-form-in-react-that-sends-emails-using-emailjs-70011d2563a3
 import "index.css";
+require('dotenv').config();
 
-const SERVICE_ID = "service_xbpztyp";
-const TEMPLATE_ID = "template_ozmrovn";
-const USER_ID = "user_dH53Oc0eZ1CbTiMgf8cxJ";
+
+const SERVICE = process.env.SERVICE_ID;
+const TEMPLATE = process.env.TEMPLATE_ID;
+const USER = process.env.USER_ID;
 
 const Contact = () => {
   const handleOnSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
+    emailjs.sendForm(SERVICE, TEMPLATE, e.target, USER).then(
+      
+// to_name: "DNB"
+// from_name: 
+// message: 
+// from_email: 
+// reply_to: "dionnenoellabarretto.aw@gmail.com"
+
       (result) => {
         console.log(result.text);
         Swal.fire({
@@ -30,7 +39,7 @@ const Contact = () => {
         Swal.fire({
           icon: "error",
           title:
-            "Ooops, something went wrong! Please try again in some time or using another browser.",
+            "Oops, something went wrong! Please try again in some time or using another browser.",
           text: error.text,
         });
       }
@@ -92,7 +101,7 @@ const Contact = () => {
             id="form-input-control-email validationTooltip01"
             control={Input}
             // for="validationTooltip01"
-            label ="Your Email"
+            label ="Email"
             title="Your email ID will never be shared with anyone else"
             name="user_email"
             placeholder="Your Email…"
@@ -106,7 +115,7 @@ const Contact = () => {
             id="form-input-control-last-name validationTooltip01"
             control={Input}
             // for="validationTooltip01"
-            label="Your Name"
+            label="Name"
             name="user_name"
             placeholder="Your Name…"
             title="Your name is being requested so I can address you correctly in my response back!"
@@ -120,8 +129,8 @@ const Contact = () => {
             id="form-textarea-control-opinion validationTooltip01"
             control={TextArea}
             // for="validationTooltip01"
-            label="Your Message"
-            name="user_message"
+            label="Message"
+            name="message"
             placeholder="Your Message…"
             title="Please provide enough context in your message, so I can respond back to you swiftly ! :) "
             required
@@ -132,7 +141,9 @@ const Contact = () => {
           <Button type="submit">Submit</Button>
         </Form> 
       </motion.div> 
+
       <hr/>
+
         <motion.div className="col-lg-5 text-center contactMe "
         variants={contact_variant}
     // holds current state
