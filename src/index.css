@@ -88,7 +88,7 @@ body {
   
 }
 .sidebar_resume, Button {
-  background-image: linear-gradient(to right bottom, #8dc2f7, #b0f7cc);
+  background-image: linear-gradient(to right bottom, #7ebbf8, #9efac3);
   border-radius: 20px;
 }
 .sidebar_resume:hover {

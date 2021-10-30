@@ -106,7 +106,7 @@ export default function About() {
                 aria-valuenow="100"
                 aria-valuemin="0"
                 aria-valuemax="100"
-                title="100% Proficiency on a scale of 100"
+                // title="100% Proficiency on a scale of 100"
               ></div>
             </div><br/>
             <h3 className="progress-tittle-w3">Leadership</h3>
@@ -117,7 +117,7 @@ export default function About() {
                 aria-valuenow="90"
                 aria-valuemin="0"
                 aria-valuemax="100"
-                title="99% Proficiency on a scale of 100"
+                // title="99% Proficiency on a scale of 100"
               ></div>
             </div><br/>
             <h3 className="progress-tittle-w3">Project & Program Management</h3>
@@ -128,7 +128,7 @@ export default function About() {
                 aria-valuenow="70"
                 aria-valuemin="0"
                 aria-valuemax="100"
-                title="97% Proficiency on a scale of 100"
+                // title="97% Proficiency on a scale of 100"
               ></div>
             </div><br/>
             <h3 className="progress-tittle-w3">VMware Technologies</h3>
@@ -139,7 +139,7 @@ export default function About() {
                 aria-valuenow="25"
                 aria-valuemin="0"
                 aria-valuemax="100"
-                title="90% Proficiency on a scale of 100"
+                // title="90% Proficiency on a scale of 100"
               ></div>
             </div><br/>
             <h3 className="progress-tittle-w3">Cloud Platforms</h3>
@@ -150,7 +150,7 @@ export default function About() {
                 aria-valuenow="50"
                 aria-valuemin="0"
                 aria-valuemax="100"
-                title="80% Proficiency on a scale of 100"
+                // title="80% Proficiency on a scale of 100"
               ></div>
             </div><br/>
             <h3 className="progress-tittle-w3">Web Development</h3>
@@ -161,7 +161,7 @@ export default function About() {
                 aria-valuenow="10"
                 aria-valuemin="0"
                 aria-valuemax="100"
-                title="85% Proficiency on a scale of 100"
+                // title="85% Proficiency on a scale of 100"
               ></div>
             </div>
           </div>
