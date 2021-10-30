@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b03f328fcd6453d2cb2ec5d1855f5dd",
+    "revision": "6ae27972694b8a63b7332e12efff18cf",
     "url": "/20_DNB_React_Portfolio/index.html"
   },
   {
-    "revision": "4b9ec699e2521007c216",
+    "revision": "02fd4d8f882ebacf9c8d",
     "url": "/20_DNB_React_Portfolio/static/css/main.ac2348cb.chunk.css"
   },
   {
-    "revision": "b4436ee245209d4ed97b",
-    "url": "/20_DNB_React_Portfolio/static/js/2.96093485.chunk.js"
+    "revision": "502e7aa996e5ab2ab3ca",
+    "url": "/20_DNB_React_Portfolio/static/js/2.f0f41e78.chunk.js"
   },
   {
     "revision": "24614dc3b68f7400393248f6043989cd",
-    "url": "/20_DNB_React_Portfolio/static/js/2.96093485.chunk.js.LICENSE.txt"
+    "url": "/20_DNB_React_Portfolio/static/js/2.f0f41e78.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4b9ec699e2521007c216",
-    "url": "/20_DNB_React_Portfolio/static/js/main.6b01006c.chunk.js"
+    "revision": "02fd4d8f882ebacf9c8d",
+    "url": "/20_DNB_React_Portfolio/static/js/main.7bdf8382.chunk.js"
   },
   {
     "revision": "5da0b19cb1c4a98043fd",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "30dbf1c1bc2d30da8900ab75bd263048",
     "url": "/20_DNB_React_Portfolio/static/media/CodeQuiz.30dbf1c1.png"
+  },
+  {
+    "revision": "c368fb80448e76ce932409b14824aa5c",
+    "url": "/20_DNB_React_Portfolio/static/media/DevelopersLifeInGifs.c368fb80.png"
   },
   {
     "revision": "103fb66cfcc23346fd594b6ce38d0267",

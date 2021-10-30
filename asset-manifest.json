@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/20_DNB_React_Portfolio/static/css/main.ac2348cb.chunk.css",
-    "main.js": "/20_DNB_React_Portfolio/static/js/main.6b01006c.chunk.js",
-    "main.js.map": "/20_DNB_React_Portfolio/static/js/main.6b01006c.chunk.js.map",
+    "main.js": "/20_DNB_React_Portfolio/static/js/main.7bdf8382.chunk.js",
+    "main.js.map": "/20_DNB_React_Portfolio/static/js/main.7bdf8382.chunk.js.map",
     "runtime-main.js": "/20_DNB_React_Portfolio/static/js/runtime-main.2e67b1bc.js",
     "runtime-main.js.map": "/20_DNB_React_Portfolio/static/js/runtime-main.2e67b1bc.js.map",
-    "static/js/2.96093485.chunk.js": "/20_DNB_React_Portfolio/static/js/2.96093485.chunk.js",
-    "static/js/2.96093485.chunk.js.map": "/20_DNB_React_Portfolio/static/js/2.96093485.chunk.js.map",
+    "static/js/2.f0f41e78.chunk.js": "/20_DNB_React_Portfolio/static/js/2.f0f41e78.chunk.js",
+    "static/js/2.f0f41e78.chunk.js.map": "/20_DNB_React_Portfolio/static/js/2.f0f41e78.chunk.js.map",
     "index.html": "/20_DNB_React_Portfolio/index.html",
-    "precache-manifest.0c5aa64a41810adea35fc46a74b2c274.js": "/20_DNB_React_Portfolio/precache-manifest.0c5aa64a41810adea35fc46a74b2c274.js",
+    "precache-manifest.028152dd008c9190943a2e503ed8eeb9.js": "/20_DNB_React_Portfolio/precache-manifest.028152dd008c9190943a2e503ed8eeb9.js",
     "service-worker.js": "/20_DNB_React_Portfolio/service-worker.js",
     "static/css/main.ac2348cb.chunk.css.map": "/20_DNB_React_Portfolio/static/css/main.ac2348cb.chunk.css.map",
-    "static/js/2.96093485.chunk.js.LICENSE.txt": "/20_DNB_React_Portfolio/static/js/2.96093485.chunk.js.LICENSE.txt",
+    "static/js/2.f0f41e78.chunk.js.LICENSE.txt": "/20_DNB_React_Portfolio/static/js/2.f0f41e78.chunk.js.LICENSE.txt",
     "static/media/Airwatch.png": "/20_DNB_React_Portfolio/static/media/Airwatch.2cbbab1c.png",
     "static/media/CSSPortfolio.png": "/20_DNB_React_Portfolio/static/media/CSSPortfolio.247e0263.png",
     "static/media/CodeQuiz.png": "/20_DNB_React_Portfolio/static/media/CodeQuiz.30dbf1c1.png",
+    "static/media/DevelopersLifeInGifs.png": "/20_DNB_React_Portfolio/static/media/DevelopersLifeInGifs.c368fb80.png",
     "static/media/ECommerceBackendApp.gif": "/20_DNB_React_Portfolio/static/media/ECommerceBackendApp.103fb66c.gif",
     "static/media/EmployeeContentManagementSystem.gif": "/20_DNB_React_Portfolio/static/media/EmployeeContentManagementSystem.c6c91d0f.gif",
     "static/media/Feedster.png": "/20_DNB_React_Portfolio/static/media/Feedster.816e3445.png",
@@ -50,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2e67b1bc.js",
-    "static/js/2.96093485.chunk.js",
+    "static/js/2.f0f41e78.chunk.js",
     "static/css/main.ac2348cb.chunk.css",
-    "static/js/main.6b01006c.chunk.js"
+    "static/js/main.7bdf8382.chunk.js"
   ]
 }
