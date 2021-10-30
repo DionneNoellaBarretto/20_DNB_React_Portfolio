@@ -17,7 +17,7 @@ import FitnessTracker from "assets/icons/FitnessTracker.png";
 import RegexGist from "assets/icons/RegexGist.png";
 
 import UpdatedPortfolio from "assets/icons/UpdatedPortfolio.png";
-import DevelopersLifeInGifs from "assets/icons/UpdatedPortfolio.png";
+import DevelopersLifeInGifs from "assets/icons/DevelopersLifeInGifs.png";
 import CSSPortfolio from "assets/icons/CSSPortfolio.png";
 import LandingPage from "assets/icons/LandingPage.png";
 // reference: https://www.youtube.com/watch?v=rVaqJCYcr8E&list=PLQKg8mIgoxKop9l92Zjd-Pmxkf-HQmclQ&index=8
