@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d59b262cba36cf27047f4654205b8ea9",
+    "revision": "61e9cc648f0ecb9ab018517331d3c420",
     "url": "/20_DNB_React_Portfolio/index.html"
   },
   {
-    "revision": "e09855a963980a9f6f3b",
+    "revision": "0b6fb6e0154dd1ed09b2",
     "url": "/20_DNB_React_Portfolio/static/css/main.db279f68.chunk.css"
   },
   {
-    "revision": "502e7aa996e5ab2ab3ca",
-    "url": "/20_DNB_React_Portfolio/static/js/2.f0f41e78.chunk.js"
+    "revision": "b189c725ed1470c8e560",
+    "url": "/20_DNB_React_Portfolio/static/js/2.d80ce282.chunk.js"
   },
   {
     "revision": "24614dc3b68f7400393248f6043989cd",
-    "url": "/20_DNB_React_Portfolio/static/js/2.f0f41e78.chunk.js.LICENSE.txt"
+    "url": "/20_DNB_React_Portfolio/static/js/2.d80ce282.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e09855a963980a9f6f3b",
-    "url": "/20_DNB_React_Portfolio/static/js/main.a62e13d5.chunk.js"
+    "revision": "0b6fb6e0154dd1ed09b2",
+    "url": "/20_DNB_React_Portfolio/static/js/main.e6761c12.chunk.js"
   },
   {
     "revision": "5da0b19cb1c4a98043fd",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "247e0263e2dcc92d86dc19dad6e7fe9f",
     "url": "/20_DNB_React_Portfolio/static/media/CSSPortfolio.247e0263.png"
+  },
+  {
+    "revision": "da6f6e42f5c1eb3ff74c2d7bedeb583c",
+    "url": "/20_DNB_React_Portfolio/static/media/CandyCrush.da6f6e42.png"
   },
   {
     "revision": "30dbf1c1bc2d30da8900ab75bd263048",

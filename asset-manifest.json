@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/20_DNB_React_Portfolio/static/css/main.db279f68.chunk.css",
-    "main.js": "/20_DNB_React_Portfolio/static/js/main.a62e13d5.chunk.js",
-    "main.js.map": "/20_DNB_React_Portfolio/static/js/main.a62e13d5.chunk.js.map",
+    "main.js": "/20_DNB_React_Portfolio/static/js/main.e6761c12.chunk.js",
+    "main.js.map": "/20_DNB_React_Portfolio/static/js/main.e6761c12.chunk.js.map",
     "runtime-main.js": "/20_DNB_React_Portfolio/static/js/runtime-main.2e67b1bc.js",
     "runtime-main.js.map": "/20_DNB_React_Portfolio/static/js/runtime-main.2e67b1bc.js.map",
-    "static/js/2.f0f41e78.chunk.js": "/20_DNB_React_Portfolio/static/js/2.f0f41e78.chunk.js",
-    "static/js/2.f0f41e78.chunk.js.map": "/20_DNB_React_Portfolio/static/js/2.f0f41e78.chunk.js.map",
+    "static/js/2.d80ce282.chunk.js": "/20_DNB_React_Portfolio/static/js/2.d80ce282.chunk.js",
+    "static/js/2.d80ce282.chunk.js.map": "/20_DNB_React_Portfolio/static/js/2.d80ce282.chunk.js.map",
     "index.html": "/20_DNB_React_Portfolio/index.html",
-    "precache-manifest.ac39bbfce0fa0565f5503e19ab7bdaeb.js": "/20_DNB_React_Portfolio/precache-manifest.ac39bbfce0fa0565f5503e19ab7bdaeb.js",
+    "precache-manifest.82112e572e9173c8477c89792fe630d5.js": "/20_DNB_React_Portfolio/precache-manifest.82112e572e9173c8477c89792fe630d5.js",
     "service-worker.js": "/20_DNB_React_Portfolio/service-worker.js",
     "static/css/main.db279f68.chunk.css.map": "/20_DNB_React_Portfolio/static/css/main.db279f68.chunk.css.map",
-    "static/js/2.f0f41e78.chunk.js.LICENSE.txt": "/20_DNB_React_Portfolio/static/js/2.f0f41e78.chunk.js.LICENSE.txt",
+    "static/js/2.d80ce282.chunk.js.LICENSE.txt": "/20_DNB_React_Portfolio/static/js/2.d80ce282.chunk.js.LICENSE.txt",
     "static/media/Airwatch.png": "/20_DNB_React_Portfolio/static/media/Airwatch.2cbbab1c.png",
     "static/media/CSSPortfolio.png": "/20_DNB_React_Portfolio/static/media/CSSPortfolio.247e0263.png",
+    "static/media/CandyCrush.png": "/20_DNB_React_Portfolio/static/media/CandyCrush.da6f6e42.png",
     "static/media/CodeQuiz.png": "/20_DNB_React_Portfolio/static/media/CodeQuiz.30dbf1c1.png",
     "static/media/DevelopersLifeInGifs.png": "/20_DNB_React_Portfolio/static/media/DevelopersLifeInGifs.c368fb80.png",
     "static/media/ECommerceBackendApp.gif": "/20_DNB_React_Portfolio/static/media/ECommerceBackendApp.103fb66c.gif",
@@ -51,8 +52,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2e67b1bc.js",
-    "static/js/2.f0f41e78.chunk.js",
+    "static/js/2.d80ce282.chunk.js",
     "static/css/main.db279f68.chunk.css",
-    "static/js/main.a62e13d5.chunk.js"
+    "static/js/main.e6761c12.chunk.js"
   ]
 }
