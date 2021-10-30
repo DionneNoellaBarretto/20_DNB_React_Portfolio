@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/20_DNB_React_Portfolio/static/css/main.db279f68.chunk.css",
-    "main.js": "/20_DNB_React_Portfolio/static/js/main.8e7984db.chunk.js",
-    "main.js.map": "/20_DNB_React_Portfolio/static/js/main.8e7984db.chunk.js.map",
+    "main.js": "/20_DNB_React_Portfolio/static/js/main.1315f2dc.chunk.js",
+    "main.js.map": "/20_DNB_React_Portfolio/static/js/main.1315f2dc.chunk.js.map",
     "runtime-main.js": "/20_DNB_React_Portfolio/static/js/runtime-main.2e67b1bc.js",
     "runtime-main.js.map": "/20_DNB_React_Portfolio/static/js/runtime-main.2e67b1bc.js.map",
     "static/js/2.da1aaa4d.chunk.js": "/20_DNB_React_Portfolio/static/js/2.da1aaa4d.chunk.js",
     "static/js/2.da1aaa4d.chunk.js.map": "/20_DNB_React_Portfolio/static/js/2.da1aaa4d.chunk.js.map",
     "index.html": "/20_DNB_React_Portfolio/index.html",
-    "precache-manifest.70650a4fb53c09a90cf98f1dab437a77.js": "/20_DNB_React_Portfolio/precache-manifest.70650a4fb53c09a90cf98f1dab437a77.js",
+    "precache-manifest.f2a16f4d9203b135f29c69f01552c6c9.js": "/20_DNB_React_Portfolio/precache-manifest.f2a16f4d9203b135f29c69f01552c6c9.js",
     "service-worker.js": "/20_DNB_React_Portfolio/service-worker.js",
     "static/css/main.db279f68.chunk.css.map": "/20_DNB_React_Portfolio/static/css/main.db279f68.chunk.css.map",
     "static/js/2.da1aaa4d.chunk.js.LICENSE.txt": "/20_DNB_React_Portfolio/static/js/2.da1aaa4d.chunk.js.LICENSE.txt",
@@ -53,6 +53,6 @@
     "static/js/runtime-main.2e67b1bc.js",
     "static/js/2.da1aaa4d.chunk.js",
     "static/css/main.db279f68.chunk.css",
-    "static/js/main.8e7984db.chunk.js"
+    "static/js/main.1315f2dc.chunk.js"
   ]
 }
