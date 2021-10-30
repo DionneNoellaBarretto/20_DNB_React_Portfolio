@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/20_DNB_React_Portfolio/static/css/main.ce2389b6.chunk.css",
-    "main.js": "/20_DNB_React_Portfolio/static/js/main.95632b20.chunk.js",
-    "main.js.map": "/20_DNB_React_Portfolio/static/js/main.95632b20.chunk.js.map",
+    "main.css": "/20_DNB_React_Portfolio/static/css/main.ac2348cb.chunk.css",
+    "main.js": "/20_DNB_React_Portfolio/static/js/main.6b01006c.chunk.js",
+    "main.js.map": "/20_DNB_React_Portfolio/static/js/main.6b01006c.chunk.js.map",
     "runtime-main.js": "/20_DNB_React_Portfolio/static/js/runtime-main.2e67b1bc.js",
     "runtime-main.js.map": "/20_DNB_React_Portfolio/static/js/runtime-main.2e67b1bc.js.map",
-    "static/js/2.eb672f68.chunk.js": "/20_DNB_React_Portfolio/static/js/2.eb672f68.chunk.js",
-    "static/js/2.eb672f68.chunk.js.map": "/20_DNB_React_Portfolio/static/js/2.eb672f68.chunk.js.map",
+    "static/js/2.96093485.chunk.js": "/20_DNB_React_Portfolio/static/js/2.96093485.chunk.js",
+    "static/js/2.96093485.chunk.js.map": "/20_DNB_React_Portfolio/static/js/2.96093485.chunk.js.map",
     "index.html": "/20_DNB_React_Portfolio/index.html",
-    "precache-manifest.9f2233bcfc2304e801ff1697cf9bd48c.js": "/20_DNB_React_Portfolio/precache-manifest.9f2233bcfc2304e801ff1697cf9bd48c.js",
+    "precache-manifest.0c5aa64a41810adea35fc46a74b2c274.js": "/20_DNB_React_Portfolio/precache-manifest.0c5aa64a41810adea35fc46a74b2c274.js",
     "service-worker.js": "/20_DNB_React_Portfolio/service-worker.js",
-    "static/css/main.ce2389b6.chunk.css.map": "/20_DNB_React_Portfolio/static/css/main.ce2389b6.chunk.css.map",
-    "static/js/2.eb672f68.chunk.js.LICENSE.txt": "/20_DNB_React_Portfolio/static/js/2.eb672f68.chunk.js.LICENSE.txt",
+    "static/css/main.ac2348cb.chunk.css.map": "/20_DNB_React_Portfolio/static/css/main.ac2348cb.chunk.css.map",
+    "static/js/2.96093485.chunk.js.LICENSE.txt": "/20_DNB_React_Portfolio/static/js/2.96093485.chunk.js.LICENSE.txt",
     "static/media/Airwatch.png": "/20_DNB_React_Portfolio/static/media/Airwatch.2cbbab1c.png",
     "static/media/CSSPortfolio.png": "/20_DNB_React_Portfolio/static/media/CSSPortfolio.247e0263.png",
     "static/media/CodeQuiz.png": "/20_DNB_React_Portfolio/static/media/CodeQuiz.30dbf1c1.png",
@@ -50,8 +50,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2e67b1bc.js",
-    "static/js/2.eb672f68.chunk.js",
-    "static/css/main.ce2389b6.chunk.css",
-    "static/js/main.95632b20.chunk.js"
+    "static/js/2.96093485.chunk.js",
+    "static/css/main.ac2348cb.chunk.css",
+    "static/js/main.6b01006c.chunk.js"
   ]
 }
