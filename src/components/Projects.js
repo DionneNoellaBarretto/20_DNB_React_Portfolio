@@ -65,6 +65,7 @@ export default function Projects() {
         <div className = {active === 'backend' && 'projects_navbar-active'} onClick={()=>handleFilterCategory('backend')}> Backend</div>
         <div className = {active === 'mysql2' && 'projects_navbar-active'} onClick={()=>handleFilterCategory('mysql2', 'mongo')}> Databases</div>
         <div className = {active === 'fullstack' && 'projects_navbar-active'} onClick={()=>handleFilterCategory('fullstack')}> Full Stack</div>
+        <div className = {active === 'game' && 'projects_navbar-active'} onClick={()=>handleFilterCategory('game')}> Game </div>
       </div> <hr/>
 
       <div className="row" >
