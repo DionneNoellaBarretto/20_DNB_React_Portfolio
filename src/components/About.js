@@ -1,5 +1,6 @@
 import React from "react";
-import Google from "assets/Google.gif";
+
+import Gcloud from "assets/icons/Gcloud.gif";
 import Rubrik from "assets/icons/Rubrik.png";
 import vmware from "assets/icons/vmware.jpg";
 import { motion } from "framer-motion";
@@ -47,7 +48,7 @@ export default function About() {
             <img
               title="Click to learn more about Google"
               className="about_company"
-              src={Google}
+              src={Gcloud}
               alt="Google Logo"
             />
           </a>

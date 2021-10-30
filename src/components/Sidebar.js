@@ -1,7 +1,7 @@
 import React from "react";
 // importing each image component
 // import dnb from "assets/dnb.jpg";
-import Gcloud from "assets/icons/Gcloud.gif";
+import Google from "assets/Google.gif";
 import cert from "assets/icons/cert.png";
 import pin from "assets/icons/pin.png";
 import github from "assets/icons/github.png";
@@ -83,7 +83,7 @@ export default function Sidebar() {
           rel="noopener noreferrer"
         >
           <img
-            src={Gcloud}
+            src={Google}
             alt="Google Cloud Gif"
             className="sidebar_company"
           />
