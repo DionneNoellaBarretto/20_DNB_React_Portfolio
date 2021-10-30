@@ -43,22 +43,6 @@ export default function Resume() {
   };
   return (
     <div>
-      <div className="text-center download">
-        <p>
-          <em>
-            To download a copy of Dionne Noella Barretto's resume:
-            <a
-              href="https://drive.google.com/file/d/1YmvFpFdlUxkXB3loRPPaRjkaRDbZ2qiz/view?usp=sharing"
-              title="Click to download"
-              rel="noopener noreferrer"
-              target="_blank"
-              className="text-uppercase"
-            >
-               click here
-            </a>
-          </em>
-        </p> 
-      </div> 
 
       <h6> <hr/>
         <em className="summary">
@@ -69,6 +53,24 @@ export default function Resume() {
         </em>
       </h6>
       <hr/>
+
+      <div className="text-center download">
+        <p>
+          <em>
+            To download a copy of Dionne Noella Barretto's resume: 
+            <a
+              href="https://drive.google.com/file/d/1YmvFpFdlUxkXB3loRPPaRjkaRDbZ2qiz/view?usp=sharing"
+              title="Click to download"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="text-uppercase"
+            >
+                click here
+            </a>
+          </em>
+        </p> 
+      </div> 
+      <br/>
       <div className="container">
         <div className="row resume_row">
           <br />
