@@ -15,16 +15,12 @@ const SERVICE = process.env.SERVICE_ID;
 const TEMPLATE = process.env.TEMPLATE_ID;
 const USER = process.env.USER_ID;
 
+console.log (SERVICE, TEMPLATE, USER);
 const Contact = () => {
   const handleOnSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm(SERVICE, TEMPLATE, e.target, USER).then(
-      
-// to_name: "DNB"
-// from_name: 
-// message: 
-// from_email: 
-// reply_to: "dionnenoellabarretto.aw@gmail.com"
+
 
       (result) => {
         console.log(result.text);
