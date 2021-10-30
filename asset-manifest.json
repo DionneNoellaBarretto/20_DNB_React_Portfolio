@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/20_DNB_React_Portfolio/static/css/main.db279f68.chunk.css",
-    "main.js": "/20_DNB_React_Portfolio/static/js/main.87c27e4d.chunk.js",
-    "main.js.map": "/20_DNB_React_Portfolio/static/js/main.87c27e4d.chunk.js.map",
+    "main.js": "/20_DNB_React_Portfolio/static/js/main.8ec7183f.chunk.js",
+    "main.js.map": "/20_DNB_React_Portfolio/static/js/main.8ec7183f.chunk.js.map",
     "runtime-main.js": "/20_DNB_React_Portfolio/static/js/runtime-main.2e67b1bc.js",
     "runtime-main.js.map": "/20_DNB_React_Portfolio/static/js/runtime-main.2e67b1bc.js.map",
     "static/js/2.f0f41e78.chunk.js": "/20_DNB_React_Portfolio/static/js/2.f0f41e78.chunk.js",
     "static/js/2.f0f41e78.chunk.js.map": "/20_DNB_React_Portfolio/static/js/2.f0f41e78.chunk.js.map",
     "index.html": "/20_DNB_React_Portfolio/index.html",
-    "precache-manifest.b60a820dc5ae033edfde7b44811f5c26.js": "/20_DNB_React_Portfolio/precache-manifest.b60a820dc5ae033edfde7b44811f5c26.js",
+    "precache-manifest.4c78f085995c6fc3fc37cfad9a46db78.js": "/20_DNB_React_Portfolio/precache-manifest.4c78f085995c6fc3fc37cfad9a46db78.js",
     "service-worker.js": "/20_DNB_React_Portfolio/service-worker.js",
     "static/css/main.db279f68.chunk.css.map": "/20_DNB_React_Portfolio/static/css/main.db279f68.chunk.css.map",
     "static/js/2.f0f41e78.chunk.js.LICENSE.txt": "/20_DNB_React_Portfolio/static/js/2.f0f41e78.chunk.js.LICENSE.txt",
@@ -25,7 +25,7 @@
     "static/media/Google_Voice_icon.png": "/20_DNB_React_Portfolio/static/media/Google_Voice_icon.0b8173d0.png",
     "static/media/HexColorExample.png": "/20_DNB_React_Portfolio/static/media/HexColorExample.7ad8f465.png",
     "static/media/ImFeelingApp.png": "/20_DNB_React_Portfolio/static/media/ImFeelingApp.baaf5e08.png",
-    "static/media/LandingPage.png": "/20_DNB_React_Portfolio/static/media/LandingPage.5249ba64.png",
+    "static/media/LandingPage.png": "/20_DNB_React_Portfolio/static/media/LandingPage.c967a84c.png",
     "static/media/NoteTaker.png": "/20_DNB_React_Portfolio/static/media/NoteTaker.01603d0b.png",
     "static/media/PasswordGenerator.png": "/20_DNB_React_Portfolio/static/media/PasswordGenerator.b5687196.png",
     "static/media/Professional_README.gif": "/20_DNB_React_Portfolio/static/media/Professional_README.416968e2.gif",
@@ -53,6 +53,6 @@
     "static/js/runtime-main.2e67b1bc.js",
     "static/js/2.f0f41e78.chunk.js",
     "static/css/main.db279f68.chunk.css",
-    "static/js/main.87c27e4d.chunk.js"
+    "static/js/main.8ec7183f.chunk.js"
   ]
 }

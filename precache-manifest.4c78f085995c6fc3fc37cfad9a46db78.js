@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "554db4c67f8f2daece68a3a6e350d067",
+    "revision": "b30ef779f4bce6f53ba88a66620faa7b",
     "url": "/20_DNB_React_Portfolio/index.html"
   },
   {
-    "revision": "6ae89c60789d5492921a",
+    "revision": "614b28b8c3d4826dbd22",
     "url": "/20_DNB_React_Portfolio/static/css/main.db279f68.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/20_DNB_React_Portfolio/static/js/2.f0f41e78.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6ae89c60789d5492921a",
-    "url": "/20_DNB_React_Portfolio/static/js/main.87c27e4d.chunk.js"
+    "revision": "614b28b8c3d4826dbd22",
+    "url": "/20_DNB_React_Portfolio/static/js/main.8ec7183f.chunk.js"
   },
   {
     "revision": "5da0b19cb1c4a98043fd",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/20_DNB_React_Portfolio/static/media/ImFeelingApp.baaf5e08.png"
   },
   {
-    "revision": "5249ba64cfd77ea20ab6885d491a3b32",
-    "url": "/20_DNB_React_Portfolio/static/media/LandingPage.5249ba64.png"
+    "revision": "c967a84c9e8f0b3e8a66990f49432320",
+    "url": "/20_DNB_React_Portfolio/static/media/LandingPage.c967a84c.png"
   },
   {
     "revision": "01603d0b82ddd11619452b7801a475e7",
