@@ -8,12 +8,12 @@ import mail from "assets/icons/mail.png";
 import { motion } from "framer-motion";
 // as seen in https://getbootstrap.com/docs/4.1/components/forms/ &  https://javascript.plainenglish.io/how-to-build-a-contact-form-in-react-that-sends-emails-using-emailjs-70011d2563a3
 import "index.css";
-require('dotenv').config();
+// require('dotenv').config();
 
 
-const SERVICE = process.env.SERVICE_ID;
-const TEMPLATE = process.env.TEMPLATE_ID;
-const USER = process.env.USER_ID;
+const SERVICE = "service_xbpztyp";
+const TEMPLATE = "template_ozmrovn";
+const USER = "user_dH53Oc0eZ1CbTiMgf8cxJ";
 
 console.log (SERVICE, TEMPLATE, USER);
 const Contact = () => {
