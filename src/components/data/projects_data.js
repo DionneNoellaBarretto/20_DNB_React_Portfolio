@@ -52,7 +52,7 @@ const data_projects = [
   },
 
   {
-    name: "Feedster-Project#2",
+    name: "Feedster -Project#2",
     image: Feedster,
     deployed_url: "https://feedster-twitter-feed.herokuapp.com/",
     github_url: "https://github.com/DionneNoellaBarretto/Feedster",
@@ -86,7 +86,7 @@ const data_projects = [
   },
 
   {
-    name: "eCommerceBackend App",
+    name: "eCommerce App",
     image: ECommerceBackendApp,
     github_url:
       "https://github.com/DionneNoellaBarretto/13-ObjectRelationalMapping-eCommerceBackEnd_usingExpress.jsMySQLAndSequelize/blob/main/package.json",
@@ -165,7 +165,7 @@ const data_projects = [
     category: ["fullstack", "html", "css", "express.js", "node.js", "heroku"],
   },
   {
-    name: "FeelingApp-Project#1",
+    name: "Feeling App-Project#1",
     image: ImFeelingApp,
     deployed_url: "https://lbladma.github.io/Project1-Interactive-Web-APP/",
     github_url:
@@ -196,7 +196,7 @@ const data_projects = [
     category: ["html", "css"],
   },
   {
-    name: "Simple Interest Calculator",
+    name: "Interest Calculator",
     image: SimpleInterestCalculator,
     deployed_url:
       "https://dionnenoellabarretto.github.io/Simple-Interest-Calculator/",
@@ -205,7 +205,7 @@ const data_projects = [
     category: ["html", "css", "js"],
   },
   {
-    name: "Advanced CSS Portfolio",
+    name: "CSS Portfolio",
     image: CSSPortfolio,
     deployed_url:
       "https://dionnenoellabarretto.github.io/02-Advanced-CSS-Portfolio/",
@@ -232,7 +232,7 @@ const data_projects = [
     category: ["html", "css", "js"],
   },
   {
-    name: "Weather API Dashboard ",
+    name: "Weather Dashboard ",
     image: WeatherDashboard,
     deployed_url:
       "https://dionnenoellabarretto.github.io/06-Weather-Dashboard-API/",
