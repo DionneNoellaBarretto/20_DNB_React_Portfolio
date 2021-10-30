@@ -20,10 +20,22 @@ import UpdatedPortfolio from "assets/icons/UpdatedPortfolio.png";
 import DevelopersLifeInGifs from "assets/icons/DevelopersLifeInGifs.png";
 import CSSPortfolio from "assets/icons/CSSPortfolio.png";
 import LandingPage from "assets/icons/LandingPage.png";
+import CandyCrush from "assets/icons/CandyCrush.png";
 // reference: https://www.youtube.com/watch?v=rVaqJCYcr8E&list=PLQKg8mIgoxKop9l92Zjd-Pmxkf-HQmclQ&index=8
 
 // array of project specifics grouped as objects
 const data_projects = [
+  {
+    name: "Candy Crush",
+    image: CandyCrush,
+ 
+    deployed_url:
+      "https://dionnenoellabarretto.github.io/CandyCrushGame/",
+    github_url:
+      "https://github.com/DionneNoellaBarretto/CandyCrushGame",
+    // filtering logic
+    category: ["react.js", "html", "bootstrap", "css", "game"],
+  },
   {
     name: "React Portfolio",
     image: LandingPage,
