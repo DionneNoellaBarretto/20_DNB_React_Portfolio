@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36eb261071ade17ada1bc1b78039b909",
+    "revision": "4a4f6d7d47448c99c7223e667354ac1f",
     "url": "/20_DNB_React_Portfolio/index.html"
   },
   {
-    "revision": "a504fe36118d7fcbc833",
+    "revision": "bc1b87ec3323ec783aeb",
     "url": "/20_DNB_React_Portfolio/static/css/main.db279f68.chunk.css"
   },
   {
-    "revision": "b189c725ed1470c8e560",
-    "url": "/20_DNB_React_Portfolio/static/js/2.d80ce282.chunk.js"
+    "revision": "c081f4580036a12a1071",
+    "url": "/20_DNB_React_Portfolio/static/js/2.a0b0b6e0.chunk.js"
   },
   {
     "revision": "24614dc3b68f7400393248f6043989cd",
-    "url": "/20_DNB_React_Portfolio/static/js/2.d80ce282.chunk.js.LICENSE.txt"
+    "url": "/20_DNB_React_Portfolio/static/js/2.a0b0b6e0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a504fe36118d7fcbc833",
-    "url": "/20_DNB_React_Portfolio/static/js/main.2c899762.chunk.js"
+    "revision": "bc1b87ec3323ec783aeb",
+    "url": "/20_DNB_React_Portfolio/static/js/main.f873ae96.chunk.js"
   },
   {
     "revision": "5da0b19cb1c4a98043fd",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "010f254fd4706324468acaabba91ebe8",
     "url": "/20_DNB_React_Portfolio/static/media/FitnessTracker.010f254f.png"
+  },
+  {
+    "revision": "c4fbd3df078989d5e7f19acbaa195a30",
+    "url": "/20_DNB_React_Portfolio/static/media/GameInstructions.c4fbd3df.png"
   },
   {
     "revision": "153090f31daaa52a21af355ed246b45c",

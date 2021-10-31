@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/20_DNB_React_Portfolio/static/css/main.db279f68.chunk.css",
-    "main.js": "/20_DNB_React_Portfolio/static/js/main.2c899762.chunk.js",
-    "main.js.map": "/20_DNB_React_Portfolio/static/js/main.2c899762.chunk.js.map",
+    "main.js": "/20_DNB_React_Portfolio/static/js/main.f873ae96.chunk.js",
+    "main.js.map": "/20_DNB_React_Portfolio/static/js/main.f873ae96.chunk.js.map",
     "runtime-main.js": "/20_DNB_React_Portfolio/static/js/runtime-main.2e67b1bc.js",
     "runtime-main.js.map": "/20_DNB_React_Portfolio/static/js/runtime-main.2e67b1bc.js.map",
-    "static/js/2.d80ce282.chunk.js": "/20_DNB_React_Portfolio/static/js/2.d80ce282.chunk.js",
-    "static/js/2.d80ce282.chunk.js.map": "/20_DNB_React_Portfolio/static/js/2.d80ce282.chunk.js.map",
+    "static/js/2.a0b0b6e0.chunk.js": "/20_DNB_React_Portfolio/static/js/2.a0b0b6e0.chunk.js",
+    "static/js/2.a0b0b6e0.chunk.js.map": "/20_DNB_React_Portfolio/static/js/2.a0b0b6e0.chunk.js.map",
     "index.html": "/20_DNB_React_Portfolio/index.html",
-    "precache-manifest.75c2093e62990dd1eb0a6c1ee1eedfbd.js": "/20_DNB_React_Portfolio/precache-manifest.75c2093e62990dd1eb0a6c1ee1eedfbd.js",
+    "precache-manifest.6a7168561e50427d157b4c8a8d6ca83c.js": "/20_DNB_React_Portfolio/precache-manifest.6a7168561e50427d157b4c8a8d6ca83c.js",
     "service-worker.js": "/20_DNB_React_Portfolio/service-worker.js",
     "static/css/main.db279f68.chunk.css.map": "/20_DNB_React_Portfolio/static/css/main.db279f68.chunk.css.map",
-    "static/js/2.d80ce282.chunk.js.LICENSE.txt": "/20_DNB_React_Portfolio/static/js/2.d80ce282.chunk.js.LICENSE.txt",
+    "static/js/2.a0b0b6e0.chunk.js.LICENSE.txt": "/20_DNB_React_Portfolio/static/js/2.a0b0b6e0.chunk.js.LICENSE.txt",
     "static/media/Airwatch.png": "/20_DNB_React_Portfolio/static/media/Airwatch.2cbbab1c.png",
     "static/media/CSSPortfolio.png": "/20_DNB_React_Portfolio/static/media/CSSPortfolio.247e0263.png",
     "static/media/CandyCrush.png": "/20_DNB_React_Portfolio/static/media/CandyCrush.da6f6e42.png",
@@ -21,6 +21,7 @@
     "static/media/EmployeeContentManagementSystem.gif": "/20_DNB_React_Portfolio/static/media/EmployeeContentManagementSystem.c6c91d0f.gif",
     "static/media/Feedster.png": "/20_DNB_React_Portfolio/static/media/Feedster.816e3445.png",
     "static/media/FitnessTracker.png": "/20_DNB_React_Portfolio/static/media/FitnessTracker.010f254f.png",
+    "static/media/GameInstructions.png": "/20_DNB_React_Portfolio/static/media/GameInstructions.c4fbd3df.png",
     "static/media/Gcloud.gif": "/20_DNB_React_Portfolio/static/media/Gcloud.153090f3.gif",
     "static/media/Google.gif": "/20_DNB_React_Portfolio/static/media/Google.002a479d.gif",
     "static/media/Google_Voice_icon.png": "/20_DNB_React_Portfolio/static/media/Google_Voice_icon.0b8173d0.png",
@@ -52,8 +53,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2e67b1bc.js",
-    "static/js/2.d80ce282.chunk.js",
+    "static/js/2.a0b0b6e0.chunk.js",
     "static/css/main.db279f68.chunk.css",
-    "static/js/main.2c899762.chunk.js"
+    "static/js/main.f873ae96.chunk.js"
   ]
 }
