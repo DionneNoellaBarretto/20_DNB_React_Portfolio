@@ -21,10 +21,22 @@ import DevelopersLifeInGifs from "assets/icons/DevelopersLifeInGifs.png";
 import CSSPortfolio from "assets/icons/CSSPortfolio.png";
 import LandingPage from "assets/icons/LandingPage.png";
 import CandyCrush from "assets/icons/CandyCrush.png";
+import GameInstructions from "assets/icons/GameInstructions.png";
 // reference: https://www.youtube.com/watch?v=rVaqJCYcr8E&list=PLQKg8mIgoxKop9l92Zjd-Pmxkf-HQmclQ&index=8
 
 // array of project specifics grouped as objects
 const data_projects = [
+  {
+    name: "Squid Game",
+    image: GameInstructions,
+ 
+    deployed_url:
+      "https://dionnenoellabarretto.github.io/SquidGame_3js/",
+    github_url:
+      "https://github.com/DionneNoellaBarretto/SquidGame_3js",
+    // filtering logic
+    category: ["three.js", "js", "html", "bootstrap", "css", "gsap", "game"],
+  },
   {
     name: "Candy Crush",
     image: CandyCrush,
